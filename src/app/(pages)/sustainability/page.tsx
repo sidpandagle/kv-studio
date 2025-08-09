@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import SuggestionForm from './suggestion-form';
 import { Leaf, Recycle, Globe } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
@@ -52,21 +51,6 @@ export default function SustainabilityPage() {
             </CardContent>
           </Card>
         ))}
-      </section>
-
-      <section className="bg-secondary rounded-lg p-8 md:p-12 text-center">
-        <div className="max-w-3xl mx-auto">
-          <Leaf className="h-12 w-12 mx-auto text-primary mb-4" />
-          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl">
-            AI-Powered Sustainability Suggestions
-          </h2>
-          <p className="mt-4 text-muted-foreground md:text-lg/relaxed">
-            Not sure where to start? Use our intelligent tool to get personalized, sustainable packaging recommendations based on your product's specific needs.
-          </p>
-        </div>
-        <div className="mt-8">
-          <SuggestionForm />
-        </div>
       </section>
     </div>
   );
