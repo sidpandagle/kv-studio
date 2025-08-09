@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: 'KVS Packaging Reimagined',
     images: [
       {
-        url: 'https://placehold.co/1200x630.png', // Replace with actual OG image
+        url: 'https://images.unsplash.com/photo-1576092762791-ddc29a265b53?w=1200&h=630&fit=crop', // Replace with actual OG image
         width: 1200,
         height: 630,
       },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: 'High-performance, sustainable packaging engineered for your brand.',
     // site: '@kvspackaging', // Replace with actual Twitter handle
     // creator: '@kvspackaging',
-    images: ['https://placehold.co/1200x630.png'], // Replace with actual Twitter image
+    images: ['https://images.unsplash.com/photo-1576092762791-ddc29a265b53?w=1200&h=630&fit=crop'], // Replace with actual Twitter image
   },
 };
 

@@ -24,7 +24,7 @@ export default function Home() {
       <section className="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center text-center">
         <div className="absolute inset-0 bg-black/50 z-10" />
         <Image
-          src="https://placehold.co/1920x1080.png"
+          src="https://images.unsplash.com/photo-1584441434692-9457c14a4b73"
           alt="Factory background"
           data-ai-hint="factory manufacturing"
           fill
@@ -125,10 +125,10 @@ export default function Home() {
               </ul>
             </div>
             <div className="grid grid-cols-2 gap-4">
-                <Image src="https://placehold.co/400x400.png" data-ai-hint="factory machines" width={400} height={400} alt="Factory 1" className="rounded-lg object-cover w-full aspect-square" />
-                <Image src="https://placehold.co/400x400.png" data-ai-hint="packaging design" width={400} height={400} alt="Factory 2" className="rounded-lg object-cover w-full aspect-square" />
-                <Image src="https://placehold.co/400x400.png" data-ai-hint="worker factory" width={400} height={400} alt="Factory 3" className="rounded-lg object-cover w-full aspect-square" />
-                <Image src="https://placehold.co/400x400.png" data-ai-hint="cardboard production" width={400} height={400} alt="Factory 4" className="rounded-lg object-cover w-full aspect-square" />
+                <Image src="https://images.unsplash.com/photo-1558502846-95560595b36a" data-ai-hint="factory machines" width={400} height={400} alt="Factory 1" className="rounded-lg object-cover w-full aspect-square" />
+                <Image src="https://images.unsplash.com/photo-1547592180-81f1c442e986" data-ai-hint="packaging design" width={400} height={400} alt="Factory 2" className="rounded-lg object-cover w-full aspect-square" />
+                <Image src="https://images.unsplash.com/photo-1526938429442-14ad587c44d3" data-ai-hint="worker factory" width={400} height={400} alt="Factory 3" className="rounded-lg object-cover w-full aspect-square" />
+                <Image src="https://images.unsplash.com/photo-1621442344913-08552b0b9758" data-ai-hint="cardboard production" width={400} height={400} alt="Factory 4" className="rounded-lg object-cover w-full aspect-square" />
             </div>
           </div>
         </div>
@@ -159,7 +159,7 @@ export default function Home() {
                 <CarouselItem key={index}>
                   <Card>
                     <CardContent className="flex flex-col items-center justify-center p-8 text-center">
-                      <Image src={`https://placehold.co/100x100.png`} data-ai-hint="person portrait" width={100} height={100} alt="Client" className="rounded-full mb-4" />
+                      <Image src={`https://images.unsplash.com/photo-1554151228-14d9def656e4`} data-ai-hint="person portrait" width={100} height={100} alt="Client" className="rounded-full mb-4 object-cover" />
                       <p className="text-lg text-muted-foreground mb-4 max-w-2xl">
                         "KVS Packaging transformed our shipping process. Their custom solutions are innovative, sustainable, and have significantly reduced our costs."
                       </p>
