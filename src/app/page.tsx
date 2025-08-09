@@ -23,13 +23,13 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <section className="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center text-center">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/80 via-teal-800/80 to-background/80 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-teal-950/80 to-background z-10" />
         <div
           data-ai-hint="factory manufacturing"
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{backgroundImage: "url('https://images.unsplash.com/photo-1584441434692-9457c14a4b73')"}}
         />
-        <div className="relative z-20 container px-4 md:px-6 text-white">
+        <div className="relative z-20 container mx-auto px-4 md:px-6 text-white">
           <div className="max-w-4xl mx-auto space-y-6">
             <h1 className="text-4xl font-headline font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
               High-Performance, Sustainable Packaging
@@ -50,7 +50,7 @@ export default function Home() {
       </section>
 
       <section id="products" className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
             <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm font-headline">
               Our Products
@@ -82,7 +82,7 @@ export default function Home() {
       </section>
 
       <section className="w-full py-12 md:py-24 lg:py-32">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
             <div className="space-y-4">
               <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm font-headline">
@@ -129,7 +129,7 @@ export default function Home() {
       </section>
       
       <section className="w-full py-12 md:py-24 lg:py-32 bg-primary text-primary-foreground">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">Committed to Sustainability</h2>
             <p className="max-w-[900px] text-primary-foreground/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -143,7 +143,7 @@ export default function Home() {
       </section>
 
       <section className="w-full py-12 md:py-24 lg:py-32">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-3xl font-headline font-bold tracking-tighter text-center sm:text-5xl mb-12">
             What Our Clients Say
           </h2>
@@ -171,7 +171,7 @@ export default function Home() {
       </section>
 
       <section className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
-        <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
+        <div className="container mx-auto grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-3">
             <h2 className="text-3xl font-headline font-bold tracking-tighter md:text-4xl/tight">
               Ready to elevate your packaging?
