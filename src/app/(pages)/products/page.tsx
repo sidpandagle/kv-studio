@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
 import Link from 'next/link';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -25,13 +24,9 @@ export default function ProductsPage() {
         {productCategories.map((category) => (
           <Card key={category.name} className="flex flex-col overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
             <CardHeader className="p-0">
-              <Image
-                src={category.image}
-                alt={category.name}
+              <div
                 data-ai-hint={category.hint}
-                width={400}
-                height={300}
-                className="w-full h-56 object-cover"
+                className="w-full h-56 bg-gradient-to-br from-secondary to-muted"
               />
             </CardHeader>
             <CardContent className="p-6 flex flex-col flex-grow">
