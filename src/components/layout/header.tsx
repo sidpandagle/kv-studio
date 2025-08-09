@@ -40,7 +40,7 @@ export function Header() {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const activeLinkClasses = 'text-accent font-semibold';
+  const activeLinkClasses = 'text-primary font-semibold';
 
   return (
     <>
