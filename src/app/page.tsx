@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <section className="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center text-center">
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-teal-950/80 to-background z-10" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-teal-950/50 to-transparent z-10" />
         <div
           data-ai-hint="factory manufacturing"
           className="absolute inset-0 bg-cover bg-center opacity-20"
