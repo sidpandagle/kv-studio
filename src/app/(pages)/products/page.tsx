@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { productCategories } from '@/content/data';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Our Products',
@@ -26,7 +27,7 @@ export default function ProductsPage() {
             <CardHeader className="p-0">
               <div
                 data-ai-hint={category.hint}
-                className="w-full h-56 bg-gradient-to-br from-secondary to-muted"
+                className="w-full h-56 bg-gradient-to-br from-primary/20 via-secondary to-accent/20"
               />
             </CardHeader>
             <CardContent className="p-6 flex flex-col flex-grow">

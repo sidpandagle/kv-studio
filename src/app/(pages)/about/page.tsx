@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'About Us',
@@ -26,7 +27,7 @@ export default function AboutPage() {
       </section>
 
       <section>
-        <div data-ai-hint="team meeting" className="w-full h-[500px] rounded-lg bg-gradient-to-br from-secondary to-muted" />
+        <div data-ai-hint="team meeting" className="w-full h-[500px] rounded-lg bg-gradient-to-br from-primary/30 to-accent/30" />
       </section>
 
       <section>
@@ -45,10 +46,10 @@ export default function AboutPage() {
       <section>
         <h2 className="text-3xl font-headline font-bold text-center mb-12">Meet Our Leadership</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {leadership.map((person) => (
+            {leadership.map((person, index) => (
                 <Card key={person.name} className="text-center">
                     <CardHeader className="p-0">
-                        <div data-ai-hint={person.hint} className="w-full aspect-square rounded-t-lg bg-gradient-to-br from-primary to-accent" />
+                        <div data-ai-hint={person.hint} className={`w-full aspect-square rounded-t-lg bg-gradient-to-br from-teal-200 via-gray-200 to-amber-100 opacity-80`} />
                     </CardHeader>
                     <CardContent className="p-4">
                         <CardTitle className="font-headline text-lg">{person.name}</CardTitle>
