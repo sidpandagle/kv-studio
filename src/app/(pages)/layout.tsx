@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'framer-motion';
 
 export default function PagesLayout({ children }: { children: React.ReactNode }) {
