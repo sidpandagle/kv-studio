@@ -133,10 +133,10 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">Committed to Sustainability</h2>
             <p className="max-w-[900px] text-primary-foreground/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              We believe in a greener future. Our AI-powered tool helps you find the most sustainable packaging options for your products.
+              We believe in a greener future. Our sustainable packaging solutions help reduce environmental impact while protecting your products with innovative, eco-friendly materials and designs.
             </p>
             <Button asChild size="lg" variant="secondary" className="font-headline">
-              <Link href="/sustainability">Find Eco-Friendly Options <Leaf className="ml-2 h-5 w-5"/></Link>
+              <Link href="/sustainability">Learn About Our Sustainability <Leaf className="ml-2 h-5 w-5"/></Link>
             </Button>
           </div>
         </div>
