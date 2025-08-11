@@ -39,7 +39,7 @@ export default function ProductsPage() {
               <CardTitle className="font-headline text-2xl mb-2">{category.name}</CardTitle>
               <CardDescription className="flex-grow">{category.description}</CardDescription>
               <Button asChild className="mt-4 w-full">
-                <Link href="#">View Details</Link>
+                <Link href={`/products/${category.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>View Details</Link>
               </Button>
             </CardContent>
           </Card>
