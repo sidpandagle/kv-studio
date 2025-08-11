@@ -25,10 +25,15 @@ export default function ProductsPage() {
         {productCategories.map((category) => (
           <Card key={category.name} className="flex flex-col overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
             <CardHeader className="p-0">
-              <div
-                data-ai-hint={category.hint}
-                className="w-full h-56 bg-gradient-to-br from-primary/20 via-secondary to-accent/20"
-              />
+              <div className="relative w-full h-56">
+                <Image
+                  src={category.image}
+                  alt={category.name}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+                />
+              </div>
             </CardHeader>
             <CardContent className="p-6 flex flex-col flex-grow">
               <CardTitle className="font-headline text-2xl mb-2">{category.name}</CardTitle>

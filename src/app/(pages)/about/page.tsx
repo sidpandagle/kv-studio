@@ -8,11 +8,11 @@ export const metadata: Metadata = {
 };
 
 const leadership = [
-    { name: 'Person 1', role: 'CEO & Founder', hint: 'person portrait' },
-    { name: 'Person 2', role: 'Head of Operations', hint: 'woman portrait' },
-    { name: 'Person 3', role: 'Lead Designer', hint: 'man portrait' },
-    { name: 'Person 4', role: 'Sustainability Officer', hint: 'person face' },
-]
+  { name: 'Person 1', role: 'CEO & Founder', image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=60' },
+  { name: 'Person 2', role: 'Head of Operations', image: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=600&q=60' },
+  { name: 'Person 3', role: 'Lead Designer', image: 'https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=600&q=60' },
+  { name: 'Person 4', role: 'Sustainability Officer', image: 'https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=600&q=60' },
+];
 
 export default function AboutPage() {
   return (
@@ -27,7 +27,16 @@ export default function AboutPage() {
       </section>
 
       <section>
-        <div data-ai-hint="team meeting" className="w-full h-[500px] rounded-lg bg-gradient-to-br from-primary/30 to-accent/30" />
+        <div className="relative w-full h-[500px] rounded-lg overflow-hidden">
+          <Image
+            src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=60"
+            alt="Team meeting"
+            fill
+            priority
+            className="object-cover"
+            sizes="100vw"
+          />
+        </div>
       </section>
 
       <section>
@@ -47,14 +56,22 @@ export default function AboutPage() {
         <h2 className="text-3xl font-headline font-bold text-center mb-12">Meet Our Leadership</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {leadership.map((person, index) => (
-                <Card key={person.name} className="text-center">
-                    <CardHeader className="p-0">
-                        <div data-ai-hint={person.hint} className={`w-full aspect-square rounded-t-lg bg-gradient-to-br from-teal-200 via-gray-200 to-amber-100 opacity-80`} />
-                    </CardHeader>
-                    <CardContent className="p-4">
-                        <CardTitle className="font-headline text-lg">{person.name}</CardTitle>
-                        <p className="text-sm text-primary">{person.role}</p>
-                    </CardContent>
+                <Card key={person.name} className="text-center overflow-hidden">
+                  <CardHeader className="p-0">
+                    <div className="relative w-full aspect-square">
+                      <Image
+                        src={person.image}
+                        alt={person.name}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width:768px) 100vw, (max-width:1200px) 25vw, 25vw"
+                      />
+                    </div>
+                  </CardHeader>
+                  <CardContent className="p-4">
+                    <CardTitle className="font-headline text-lg">{person.name}</CardTitle>
+                    <p className="text-sm text-primary">{person.role}</p>
+                  </CardContent>
                 </Card>
             ))}
         </div>
