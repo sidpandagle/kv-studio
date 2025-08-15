@@ -37,18 +37,36 @@ export default function ContactForm() {
 
   async function onSubmit(data: FormData) {
     setIsLoading(true);
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    
-    console.log('Form submitted:', data);
+    try {
+      // Replace with your Formspree endpoint or set NEXT_PUBLIC_FORMSPREE_ENDPOINT in env
+      const endpoint = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT || '';
 
-    toast({
-      title: 'Message Sent!',
-      description: "Thanks for reaching out. We'll get back to you shortly.",
-    });
+      const formData = new FormData();
+      formData.append('Name', data.name);
+      formData.append('Email', data.email);
+      formData.append('Subject', data.subject);
+      formData.append('Message', data.message);
 
-    form.reset();
-    setIsLoading(false);
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: { Accept: 'application/json' },
+        body: formData,
+      });
+
+      if (!res.ok) {
+        const err = await res.json().catch(() => null);
+        console.error('Formspree error', err);
+        toast({ title: 'Error', description: 'There was a problem sending your message. Please try again later.' });
+      } else {
+        toast({ title: 'Message Sent!', description: "Thanks for reaching out. We'll get back to you shortly." });
+        form.reset();
+      }
+    } catch (e) {
+      console.error(e);
+      toast({ title: 'Error', description: 'There was a problem sending your message. Please try again later.' });
+    } finally {
+      setIsLoading(false);
+    }
   }
 
   return (
