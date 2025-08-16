@@ -9,10 +9,10 @@ export const metadata: Metadata = {
 
 // Placeholder leadership data – replace with real team photos when available
 const leadership = [
-  { name: 'Team Member 1', role: 'Operations Lead', image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=60' },
-  { name: 'Team Member 2', role: 'Quality & Testing', image: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=600&q=60' },
-  { name: 'Team Member 3', role: 'Design & Prototyping', image: 'https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=600&q=60' },
-  { name: 'Team Member 4', role: 'Sustainability', image: 'https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=600&q=60' },
+  { name: 'Gahinath Vishwasrao', phone: 9763021933 },
+  { name: 'Shrikant Khodade', phone: 9975781200 },
+  { name: 'Amar Vishwasrao', phone: 9766520651 },
+  // { name: 'Team Member 4', role: 'Sustainability', image: 'https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=600&q=60' },
 ];
 
 export default function AboutPage() {
@@ -127,23 +127,14 @@ export default function AboutPage() {
 
       <section>
         <h2 className="text-3xl font-headline font-bold text-center mb-12">Leadership & Expertise</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {leadership.map((person, index) => (
             <Card key={person.name} className="text-center overflow-hidden">
               <CardHeader className="p-0">
-                <div className="relative w-full aspect-square">
-                  <Image
-                    src={person.image}
-                    alt={person.name}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width:768px) 100vw, (max-width:1200px) 25vw, 25vw"
-                  />
-                </div>
               </CardHeader>
               <CardContent className="p-4">
                 <CardTitle className="font-headline text-lg">{person.name}</CardTitle>
-                <p className="text-sm text-primary">{person.role}</p>
+                <p className="text-sm text-primary">{person.phone}</p>
               </CardContent>
             </Card>
           ))}
