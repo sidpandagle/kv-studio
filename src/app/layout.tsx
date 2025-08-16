@@ -55,7 +55,7 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         <FloatingQuoteButton />
-  {process.env.NODE_ENV === 'development' && <ThemeSwitcherDev />}
+        <ThemeSwitcherDev />
         <Toaster />
       </body>
     </html>
