@@ -4,8 +4,8 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 import { Map } from '@/components/ui/map';
 
 export const metadata: Metadata = {
-  title: 'Contact Us',
-  description: 'Get in touch with KVS Packaging. We are here to help with all your packaging needs.',
+  title: 'Contact | KV Packaging Solutions',
+  description: 'Get in touch with KV Packaging Solutions for corrugated & honeycomb packaging inquiries.',
 };
 
 export default function ContactPage() {
@@ -18,7 +18,7 @@ export default function ContactPage() {
               Get in Touch
               </h1>
               <p className="mt-4 text-muted-foreground md:text-xl/relaxed">
-              Have a question or a project in mind? We'd love to hear from you. Fill out the form or use the contact details below.
+              Have a question or a project in mind? We’d love to hear from you. Reach out using the details below or send us your requirements.
               </p>
           </div>
           <div className="space-y-6">
@@ -28,7 +28,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                       <h3 className="font-headline font-semibold text-lg">Email</h3>
-                      <a href="mailto:hello@kvspackaging.com" className="text-muted-foreground hover:text-primary">hello@kvspackaging.com</a>
+                      <a href="mailto:sales.development@kvpack.in" className="text-muted-foreground hover:text-primary">sales.development@kvpack.in</a>
                   </div>
               </div>
                <div className="flex items-start gap-4">
@@ -37,7 +37,15 @@ export default function ContactPage() {
                   </div>
                   <div>
                       <h3 className="font-headline font-semibold text-lg">Phone</h3>
-                      <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary">+1 (234) 567-890</a>
+                      <p className="text-muted-foreground space-y-1">
+                        <a href="tel:+919975781200" className="block hover:text-primary">+91 9975781200</a>
+                        <a href="tel:+919763021933" className="block hover:text-primary">+91 9763021933</a>
+                      </p>
+                      <div className="mt-2 text-sm">
+                        <span className="font-semibold">WhatsApp:</span>{' '}
+                        <a href="https://wa.me/919766520651" className="hover:underline">+91 9766520651</a>,{' '}
+                        <a href="https://wa.me/918858548787" className="hover:underline">8858548787</a>
+                      </div>
                   </div>
               </div>
                <div className="flex items-start gap-4">
@@ -46,7 +54,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                       <h3 className="font-headline font-semibold text-lg">Office</h3>
-                      <p className="text-muted-foreground">123 Packaging Lane, Industry City, 54321</p>
+                      <p className="text-muted-foreground">Plot No. E23, Supa MIDC, Tal. Parner, Dist.- Ahilyanagar, Maharashtra, 414301</p>
                   </div>
               </div>
           </div>
@@ -58,8 +66,8 @@ export default function ContactPage() {
 
       <section>
         <h2 className="text-2xl font-headline font-bold tracking-tight mb-4">Find Us</h2>
-        <p className="text-muted-foreground mb-6 max-w-2xl">Our office and production coordination center is located in the heart of Industry City with easy access to major transport routes. Visitors are welcome by appointment.</p>
-        <Map lat={37.7749} lng={-122.4194} zoom={13} title="KVS Packaging Office Location" className="w-full" height={400} />
+        <p className="text-muted-foreground mb-6 max-w-2xl">Our manufacturing facility is strategically positioned near Ranjangaon & Supa MIDC for efficient regional distribution. Visits are welcome by prior appointment.</p>
+        <Map lat={18.7606} lng={74.4154} zoom={11} title="KV Packaging Solutions Facility" className="w-full" height={400} />
       </section>
     </div>
   );

@@ -1,4 +1,4 @@
-# **App Name**: KVS Packaging Reimagined
+# **App Name**: KV PACKAGING SOLUTIONS
 
 ## Core Features:
 

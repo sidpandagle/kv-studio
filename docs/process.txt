@@ -1,0 +1,532 @@
+Process 1: HIGH SPEED 5 PLY AUTO BOARD PLANT
+<div id="elementor-tab-content-5411" class="elementor-tab-content elementor-clearfix elementor-active" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-5411" tabindex="0" style="display: block;">		<div data-elementor-type="section" data-elementor-id="432" class="elementor elementor-432" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-f972597 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f972597" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6d376ce" data-id="6d376ce" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-53cb058 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="53cb058" data-element_type="section" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.8,&quot;sizes&quot;:[]},&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" style="--translateY: 41.778000000000006px;">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bbafa2a" data-id="bbafa2a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-f20f9cb elementor-hidden-desktop elementor-widget elementor-widget-image" data-id="f20f9cb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="800" height="600" src="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-6.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-6.jpeg 1024w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-6-300x225.jpeg 300w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-6-768x576.jpeg 768w" sizes="(max-width: 800px) 100vw, 800px">														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9a2766c" data-id="9a2766c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-744f76b elementor-widget elementor-widget-text-editor" data-id="744f76b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul><li>Deckle Size – 2250 mm : All<br>refrigerator boxes can be converted<br>from horizontal to VERTICAL FLUTE<br>&amp; from double joint to SINGLE<br>JOINT)</li><li>High Speed – 220 MTR/ MIN</li><li>Ply – 3 &amp; 5</li><li>Fully Automated – Auto glue<br>control and synchronized order<br>change by PMS (Production<br>Management Control System)</li></ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-0922ce7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0922ce7" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1d107bd" data-id="1d107bd" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-8750112 elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8750112" data-element_type="section" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.8,&quot;sizes&quot;:[]},&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" style="--translateY: 90px;">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e59222e" data-id="e59222e" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-cea8807 elementor-widget elementor-widget-text-editor" data-id="cea8807" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul><li>Output : The board output is<br>completely automated with help of<br>fully auto down stacker</li><li>The output board is directly<br>transferred to conveyor roller<br>system and then to the PRINTER<br>machine</li><li>There is no requirement of any<br>pallet or forklift for board transfer,<br>thus ensuring minimum material<br>handling</li></ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1187331" data-id="1187331" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-ac6daf9 elementor-hidden-desktop elementor-widget elementor-widget-image" data-id="ac6daf9" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="800" height="600" src="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-3.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-3.jpeg 1024w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-3-300x225.jpeg 300w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-3-768x576.jpeg 768w" sizes="(max-width: 800px) 100vw, 800px">														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				</div>
+		</div>
+		</div>
+
+Process 2: PRINTING
+<div class="elementor-tabs-content-wrapper" role="tablist" aria-orientation="vertical">
+									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="1" role="tab" tabindex="-1" aria-controls="elementor-tab-content-5411" aria-expanded="false">HIGH SPEED 5 PLY AUTO BOARD PLANT</div>
+					<div id="elementor-tab-content-5411" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-5411" tabindex="0" style="display: none;" hidden="hidden">		<div data-elementor-type="section" data-elementor-id="432" class="elementor elementor-432" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-f972597 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f972597" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6d376ce" data-id="6d376ce" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-53cb058 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="53cb058" data-element_type="section" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.8,&quot;sizes&quot;:[]},&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" style="--translateY: 41.778000000000006px;">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bbafa2a" data-id="bbafa2a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-f20f9cb elementor-hidden-desktop elementor-widget elementor-widget-image" data-id="f20f9cb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="800" height="600" src="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-6.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-6.jpeg 1024w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-6-300x225.jpeg 300w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-6-768x576.jpeg 768w" sizes="(max-width: 800px) 100vw, 800px">														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9a2766c" data-id="9a2766c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-744f76b elementor-widget elementor-widget-text-editor" data-id="744f76b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul><li>Deckle Size – 2250 mm : All<br>refrigerator boxes can be converted<br>from horizontal to VERTICAL FLUTE<br>&amp; from double joint to SINGLE<br>JOINT)</li><li>High Speed – 220 MTR/ MIN</li><li>Ply – 3 &amp; 5</li><li>Fully Automated – Auto glue<br>control and synchronized order<br>change by PMS (Production<br>Management Control System)</li></ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-0922ce7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0922ce7" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1d107bd" data-id="1d107bd" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-8750112 elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8750112" data-element_type="section" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.8,&quot;sizes&quot;:[]},&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" style="--translateY: 90px;">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e59222e" data-id="e59222e" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-cea8807 elementor-widget elementor-widget-text-editor" data-id="cea8807" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul><li>Output : The board output is<br>completely automated with help of<br>fully auto down stacker</li><li>The output board is directly<br>transferred to conveyor roller<br>system and then to the PRINTER<br>machine</li><li>There is no requirement of any<br>pallet or forklift for board transfer,<br>thus ensuring minimum material<br>handling</li></ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1187331" data-id="1187331" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-ac6daf9 elementor-hidden-desktop elementor-widget elementor-widget-image" data-id="ac6daf9" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="800" height="600" src="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-3.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-3.jpeg 1024w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-3-300x225.jpeg 300w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-3-768x576.jpeg 768w" sizes="(max-width: 800px) 100vw, 800px">														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				</div>
+		</div>
+		</div>
+									<div class="elementor-tab-title elementor-tab-mobile-title elementor-active" aria-selected="true" data-tab="2" role="tab" tabindex="0" aria-controls="elementor-tab-content-5412" aria-expanded="true">PRINTING</div>
+					<div id="elementor-tab-content-5412" class="elementor-tab-content elementor-clearfix elementor-active" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-5412" tabindex="0" style="display: block;">		<div data-elementor-type="section" data-elementor-id="436" class="elementor elementor-436" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-2daf96ad elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2daf96ad" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3b4b75ab" data-id="3b4b75ab" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-71987bd1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="71987bd1" data-element_type="section" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.8,&quot;sizes&quot;:[]},&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" style="--translateY: -90px;">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6b4711be" data-id="6b4711be" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-347c682 elementor-hidden-desktop elementor-widget elementor-widget-image" data-id="347c682" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="800" height="600" src="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-7.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-7.jpeg 1024w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-7-300x225.jpeg 300w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-7-768x576.jpeg 768w" sizes="(max-width: 800px) 100vw, 800px">														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7e96f26e" data-id="7e96f26e" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4c5158de elementor-widget elementor-widget-text-editor" data-id="4c5158de" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul><li>High Speed Multi-color Printer-<br>Slotter-Die cutter</li><li>Jumbo Size : 2200 x 3600 mm</li><li>Can print, slot &amp; die cut existing<br>horizontal flute refrigerator<br>boxes into VERTICAL FLUTE</li><li>All other boxes of LED, WM, RAC<br>&amp; FMCG can be printed with<br>optimum quality &amp; consistency</li><li>Input &amp; output of boards is<br>completely on roller conveyors</li></ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				</div>
+		</div>
+		</div>
+									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="elementor-tab-content-5413" aria-expanded="false">1 PIECE AND 2 PIECE AUTO STITCHER</div>
+					<div id="elementor-tab-content-5413" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-5413" tabindex="0" style="display: none;" hidden="hidden">		<div data-elementor-type="section" data-elementor-id="440" class="elementor elementor-440" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-7cf62f8f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7cf62f8f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5db7e623" data-id="5db7e623" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-5ba64d12 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5ba64d12" data-element_type="section" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.8,&quot;sizes&quot;:[]},&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" style="--translateY: -90px;">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-458b95c4" data-id="458b95c4" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-68259d1c elementor-hidden-desktop elementor-widget elementor-widget-image" data-id="68259d1c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="800" height="600" src="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-3.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-3.jpeg 1024w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-3-300x225.jpeg 300w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-3-768x576.jpeg 768w" sizes="(max-width: 800px) 100vw, 800px">														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b5495ca" data-id="b5495ca" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2532a2c8 elementor-widget elementor-widget-text-editor" data-id="2532a2c8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul><li>Big size 1 /2 piece Auto Stitcher for REFERIGERATOR &amp; AUTOMOBILE<br>BOXES</li><li>1 piece Auto Stitcher for LED, WM &amp; RAC boxes</li></ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				</div>
+		</div>
+		</div>
+									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="4" role="tab" tabindex="-1" aria-controls="elementor-tab-content-5414" aria-expanded="false">Auto Folder Gluer</div>
+					<div id="elementor-tab-content-5414" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-5414" tabindex="0" style="display: none;" hidden="hidden">		<div data-elementor-type="section" data-elementor-id="444" class="elementor elementor-444" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-76da7749 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="76da7749" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1f4d4278" data-id="1f4d4278" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-245b94cf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="245b94cf" data-element_type="section" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.8,&quot;sizes&quot;:[]},&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" style="--translateY: -90px;">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5923c069" data-id="5923c069" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-3fcd6688 elementor-hidden-desktop elementor-widget elementor-widget-image" data-id="3fcd6688" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="800" height="600" src="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM.jpeg 1024w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-300x225.jpeg 300w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-768x576.jpeg 768w" sizes="(max-width: 800px) 100vw, 800px">														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-24c23ca6" data-id="24c23ca6" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-350dfb87 elementor-widget elementor-widget-text-editor" data-id="350dfb87" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul><li>High Speed Automatic Folder Gluer for FMCG customers with fully auto bundling</li></ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				</div>
+		</div>
+		</div>
+									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="5" role="tab" tabindex="-1" aria-controls="elementor-tab-content-5415" aria-expanded="false">QUALITY ASSURANCE</div>
+					<div id="elementor-tab-content-5415" class="elementor-tab-content elementor-clearfix" data-tab="5" role="tabpanel" aria-labelledby="elementor-tab-title-5415" tabindex="0" style="display: none;" hidden="hidden">		<div data-elementor-type="section" data-elementor-id="449" class="elementor elementor-449" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-60007d54 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="60007d54" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5cf928b0" data-id="5cf928b0" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-3d0288b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3d0288b" data-element_type="section" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.8,&quot;sizes&quot;:[]},&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" style="--translateY: -90px;">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6c300c2f" data-id="6c300c2f" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-42c7d02e elementor-hidden-desktop elementor-widget elementor-widget-image" data-id="42c7d02e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="800" height="600" src="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM.jpeg 1024w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-300x225.jpeg 300w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-768x576.jpeg 768w" sizes="(max-width: 800px) 100vw, 800px">														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1aa9068a" data-id="1aa9068a" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-454387a elementor-widget elementor-widget-text-editor" data-id="454387a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul><li>Fully equipped Quality Control Lab &nbsp;</li><li>Highly Skilled Quality Assurance Team to ensure all 3 levels of ILO (Incoming,<br>Line &amp; Outgoing) inspection</li></ul>					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-aa87b67 elementor-widget elementor-widget-text-editor" data-id="aa87b67" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<p>Consists of</p><ul><li>Box Compression Strength Tester</li><li>Hot Air Oven</li><li>Bursting Strength Tester Board</li><li>Bursting Strength Tester Paper</li><li>Crush Resistance Tester</li><li>GSM Tester</li><li>RCT Sample Cutter</li><li>COBB Tester</li><li>GSM Cutter</li><li>B4 Cup for Ink viscosity</li><li>Ink Rub Tester</li></ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				</div>
+		</div>
+		</div>
+							</div>
+Process 3: 1 PIECE AND 2 PIECE AUTO STITCHER
+<div id="elementor-tab-content-5413" class="elementor-tab-content elementor-clearfix elementor-active" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-5413" tabindex="0" style="display: block;">		<div data-elementor-type="section" data-elementor-id="440" class="elementor elementor-440" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-7cf62f8f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7cf62f8f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5db7e623" data-id="5db7e623" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-5ba64d12 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5ba64d12" data-element_type="section" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.8,&quot;sizes&quot;:[]},&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" style="--translateY: -90px;">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-458b95c4" data-id="458b95c4" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-68259d1c elementor-hidden-desktop elementor-widget elementor-widget-image" data-id="68259d1c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="800" height="600" src="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-3.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-3.jpeg 1024w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-3-300x225.jpeg 300w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-3-768x576.jpeg 768w" sizes="(max-width: 800px) 100vw, 800px">														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b5495ca" data-id="b5495ca" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2532a2c8 elementor-widget elementor-widget-text-editor" data-id="2532a2c8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul><li>Big size 1 /2 piece Auto Stitcher for REFERIGERATOR &amp; AUTOMOBILE<br>BOXES</li><li>1 piece Auto Stitcher for LED, WM &amp; RAC boxes</li></ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				</div>
+		</div>
+		</div>
+Process 4: AUTO FOLDER GLUER
+<div id="elementor-tab-content-5414" class="elementor-tab-content elementor-clearfix elementor-active" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-5414" tabindex="0" style="display: block;">		<div data-elementor-type="section" data-elementor-id="444" class="elementor elementor-444" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-76da7749 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="76da7749" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1f4d4278" data-id="1f4d4278" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-245b94cf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="245b94cf" data-element_type="section" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.8,&quot;sizes&quot;:[]},&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" style="--translateY: -90px;">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5923c069" data-id="5923c069" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-3fcd6688 elementor-hidden-desktop elementor-widget elementor-widget-image" data-id="3fcd6688" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="800" height="600" src="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM.jpeg 1024w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-300x225.jpeg 300w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-768x576.jpeg 768w" sizes="(max-width: 800px) 100vw, 800px">														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-24c23ca6" data-id="24c23ca6" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-350dfb87 elementor-widget elementor-widget-text-editor" data-id="350dfb87" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul><li>High Speed Automatic Folder Gluer for FMCG customers with fully auto bundling</li></ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				</div>
+		</div>
+		</div>
+Process 5: QUALITY ASSURANCE
+<div id="elementor-tab-content-5415" class="elementor-tab-content elementor-clearfix elementor-active" data-tab="5" role="tabpanel" aria-labelledby="elementor-tab-title-5415" tabindex="0" style="display: block;">		<div data-elementor-type="section" data-elementor-id="449" class="elementor elementor-449" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-60007d54 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="60007d54" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5cf928b0" data-id="5cf928b0" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-3d0288b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3d0288b" data-element_type="section" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.8,&quot;sizes&quot;:[]},&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" style="--translateY: -90px;">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6c300c2f" data-id="6c300c2f" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-42c7d02e elementor-hidden-desktop elementor-widget elementor-widget-image" data-id="42c7d02e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="800" height="600" src="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM.jpeg 1024w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-300x225.jpeg 300w, https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-768x576.jpeg 768w" sizes="(max-width: 800px) 100vw, 800px">														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1aa9068a" data-id="1aa9068a" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-454387a elementor-widget elementor-widget-text-editor" data-id="454387a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul><li>Fully equipped Quality Control Lab &nbsp;</li><li>Highly Skilled Quality Assurance Team to ensure all 3 levels of ILO (Incoming,<br>Line &amp; Outgoing) inspection</li></ul>					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-aa87b67 elementor-widget elementor-widget-text-editor" data-id="aa87b67" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<p>Consists of</p><ul><li>Box Compression Strength Tester</li><li>Hot Air Oven</li><li>Bursting Strength Tester Board</li><li>Bursting Strength Tester Paper</li><li>Crush Resistance Tester</li><li>GSM Tester</li><li>RCT Sample Cutter</li><li>COBB Tester</li><li>GSM Cutter</li><li>B4 Cup for Ink viscosity</li><li>Ink Rub Tester</li></ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				</div>
+		</div>
+		</div>

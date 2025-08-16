@@ -6,20 +6,16 @@ import { productCategories } from '@/content/data';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Our Products',
-  description: 'Explore our wide range of sustainable and high-performance packaging solutions.',
+  title: 'Products | KV Packaging Solutions',
+  description: 'Corrugated RSC / Half Slotted Containers and Honeycomb Board Packaging engineered for performance & sustainability.',
 };
 
 export default function ProductsPage() {
   return (
     <section>
       <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-        <h1 className="text-4xl font-headline font-bold tracking-tighter sm:text-5xl">
-          Our Packaging Products
-        </h1>
-        <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed">
-          Discover our comprehensive range of packaging solutions, designed to meet the unique needs of various industries with a focus on quality and sustainability.
-        </p>
+  <h1 className="text-4xl font-headline font-bold tracking-tighter sm:text-5xl">Packaging Solutions</h1>
+  <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed">Focused portfolio enabling depth & expertise: Corrugated RSC / HSC formats for efficient loading & transit protection, and Honeycomb Board systems for lightweight strength, cushioning & structural support.</p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {productCategories.map((category) => (
@@ -39,7 +35,7 @@ export default function ProductsPage() {
               <CardTitle className="font-headline text-2xl mb-2">{category.name}</CardTitle>
               <CardDescription className="flex-grow">{category.description}</CardDescription>
               <Button asChild className="mt-4 w-full">
-                <Link href={`/products/${category.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>View Details</Link>
+                <Link href={`/products/${(category as any).slug}`}>View Details</Link>
               </Button>
             </CardContent>
           </Card>

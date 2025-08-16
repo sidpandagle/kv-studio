@@ -3,15 +3,16 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'About Us',
-  description: 'Learn about the story, values, and people behind KVS Packaging.',
+  title: 'About KV Packaging Solutions',
+  description: 'Corrugated & honeycomb packaging specialists delivering customized, sustainable protection.',
 };
 
+// Placeholder leadership data – replace with real team photos when available
 const leadership = [
-  { name: 'Person 1', role: 'CEO & Founder', image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=60' },
-  { name: 'Person 2', role: 'Head of Operations', image: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=600&q=60' },
-  { name: 'Person 3', role: 'Lead Designer', image: 'https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=600&q=60' },
-  { name: 'Person 4', role: 'Sustainability Officer', image: 'https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=600&q=60' },
+  { name: 'Team Member 1', role: 'Operations Lead', image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=60' },
+  { name: 'Team Member 2', role: 'Quality & Testing', image: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=600&q=60' },
+  { name: 'Team Member 3', role: 'Design & Prototyping', image: 'https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=600&q=60' },
+  { name: 'Team Member 4', role: 'Sustainability', image: 'https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=600&q=60' },
 ];
 
 export default function AboutPage() {
@@ -19,10 +20,10 @@ export default function AboutPage() {
     <div className="space-y-16">
       <section className="text-center">
         <h1 className="text-4xl font-headline font-bold tracking-tighter sm:text-5xl">
-          Engineering a Better Package
+          Purpose-Built Protective Packaging
         </h1>
         <p className="mt-4 max-w-3xl mx-auto text-muted-foreground md:text-xl/relaxed">
-          For over 20 years, KVS Packaging has been a leader in innovative and sustainable packaging solutions. Our journey is one of passion, precision, and a deep commitment to our clients and the environment.
+          KV PACKAGING SOLUTIONS delivers high-performance corrugated and honeycomb board solutions from our Wadegavhan facility near Ranjangaon & Supa MIDC—serving white goods, FMCG, agriculture & automotive sectors with reliability and agility.
         </p>
       </section>
 
@@ -41,39 +42,111 @@ export default function AboutPage() {
 
       <section>
         <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-4">
-                <h2 className="text-3xl font-headline font-bold">Our Mission</h2>
-                <p className="text-muted-foreground">To deliver exceptional packaging that combines cutting-edge design, high-performance materials, and a steadfast commitment to sustainability, empowering our clients to succeed while protecting our planet.</p>
-            </div>
-            <div className="space-y-4">
-                <h2 className="text-3xl font-headline font-bold">Our Vision</h2>
-                <p className="text-muted-foreground">To be the world's most trusted and innovative packaging partner, pioneering a future where all packaging is circular and contributes positively to the global ecosystem.</p>
-            </div>
+          <div className="space-y-4">
+            <h2 className="text-3xl font-headline font-bold">Mission</h2>
+            <p className="text-muted-foreground">To empower businesses with sustainable, robust packaging solutions that safeguard their products and elevate their brand—driven by innovation, customer satisfaction & environmental stewardship.</p>
+          </div>
+          <div className="space-y-4">
+            <h2 className="text-3xl font-headline font-bold">What Sets Us Apart</h2>
+            <p className="text-muted-foreground">Industrial-grade materials, precise converting, rapid customization & a consultative approach ensure the right balance of performance, cost & sustainability.</p>
+          </div>
         </div>
       </section>
 
       <section>
-        <h2 className="text-3xl font-headline font-bold text-center mb-12">Meet Our Leadership</h2>
+        <h2 className="text-3xl font-headline font-bold mb-6 text-center">Key Capabilities & Achievements</h2>
+        <div className="grid gap-3 md:grid-cols-2">
+          {[
+        {
+          icon: (
+        <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+          <path d="M3 7l9-4 9 4v6c0 5-4 9-9 9s-9-4-9-9V7z" />
+          <path d="M9 21V9h6v12" />
+        </svg>
+          ),
+          text: "Cutting-edge manufacturing plant in Wadegavhan (near Ranjangaon & Supa MIDC)",
+        },
+        {
+          icon: (
+        <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+          <path d="M4 17v-5a2 2 0 012-2h12a2 2 0 012 2v5" />
+          <path d="M16 3v4" />
+          <path d="M8 3v4" />
+          <rect width="20" height="14" x="2" y="7" rx="2" />
+        </svg>
+          ),
+          text: "Serving white goods, FMCG, agriculture & automotive supply chains",
+        },
+        {
+          icon: (
+        <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+          <rect width="18" height="10" x="3" y="7" rx="2" />
+          <path d="M3 7V5a2 2 0 012-2h14a2 2 0 012 2v2" />
+        </svg>
+          ),
+          text: "Specialization in RSC & Half Slotted Container (HSC) variants for ergonomic loading",
+        },
+        {
+          icon: (
+        <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="10" />
+          <path d="M8 12l2 2 4-4" />
+        </svg>
+          ),
+          text: "Customized honeycomb board solutions for cushioning, layering & structural reinforcement",
+        },
+        {
+          icon: (
+        <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+          <path d="M9 17v-2a2 2 0 012-2h2a2 2 0 012 2v2" />
+          <rect width="20" height="14" x="2" y="7" rx="2" />
+        </svg>
+          ),
+          text: "Quality focus: compression, edge crush & transit integrity validation",
+        },
+        {
+          icon: (
+        <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+          <path d="M12 8v4l3 3" />
+          <circle cx="12" cy="12" r="10" />
+        </svg>
+          ),
+          text: "Agile prototyping enabling faster packaging line integration",
+        },
+          ].map((item, idx) => (
+        <div
+          key={idx}
+          className="flex items-start gap-3 bg-muted/40 p-3 rounded-md shadow-sm hover:shadow-md transition-shadow"
+        >
+          <div className="flex-shrink-0">{item.icon}</div>
+          <span className="text-base text-muted-foreground">{item.text}</span>
+        </div>
+          ))}
+        </div>
+      </section>
+
+      <section>
+        <h2 className="text-3xl font-headline font-bold text-center mb-12">Leadership & Expertise</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {leadership.map((person, index) => (
-                <Card key={person.name} className="text-center overflow-hidden">
-                  <CardHeader className="p-0">
-                    <div className="relative w-full aspect-square">
-                      <Image
-                        src={person.image}
-                        alt={person.name}
-                        fill
-                        className="object-cover"
-                        sizes="(max-width:768px) 100vw, (max-width:1200px) 25vw, 25vw"
-                      />
-                    </div>
-                  </CardHeader>
-                  <CardContent className="p-4">
-                    <CardTitle className="font-headline text-lg">{person.name}</CardTitle>
-                    <p className="text-sm text-primary">{person.role}</p>
-                  </CardContent>
-                </Card>
-            ))}
+          {leadership.map((person, index) => (
+            <Card key={person.name} className="text-center overflow-hidden">
+              <CardHeader className="p-0">
+                <div className="relative w-full aspect-square">
+                  <Image
+                    src={person.image}
+                    alt={person.name}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width:768px) 100vw, (max-width:1200px) 25vw, 25vw"
+                  />
+                </div>
+              </CardHeader>
+              <CardContent className="p-4">
+                <CardTitle className="font-headline text-lg">{person.name}</CardTitle>
+                <p className="text-sm text-primary">{person.role}</p>
+              </CardContent>
+            </Card>
+          ))}
         </div>
       </section>
     </div>

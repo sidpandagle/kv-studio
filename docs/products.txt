@@ -1,0 +1,117 @@
+<section class="elementor-section elementor-top-section elementor-element elementor-element-1778327 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1778327" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}" style="width: 1311px; left: -35px;">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5c9eb76" data-id="5c9eb76" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-09584fc elementor-widget elementor-widget-text-editor" data-id="09584fc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>We combine consistent innovation and state-of-the-art manufacturing technology to create corrugated packaging products that can be customised as per different business requirements. Our products service a range of applications.</p>						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-607352a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="607352a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-6a70c47" data-id="6a70c47" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-8bcd6e7 elementor-position-top elementor-widget elementor-widget-image-box" data-id="8bcd6e7" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-image-box .elementor-image-box-content{width:100%}@media (min-width:768px){.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{display:flex}.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{text-align:end;flex-direction:row-reverse}.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper{text-align:start;flex-direction:row}.elementor-widget-image-box.elementor-position-top .elementor-image-box-img{margin:auto}.elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper{align-items:flex-start}.elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper{align-items:center}.elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper{align-items:flex-end}}@media (max-width:767px){.elementor-widget-image-box .elementor-image-box-img{margin-left:auto!important;margin-right:auto!important;margin-bottom:15px}}.elementor-widget-image-box .elementor-image-box-img{display:inline-block}.elementor-widget-image-box .elementor-image-box-title a{color:inherit}.elementor-widget-image-box .elementor-image-box-wrapper{text-align:center}.elementor-widget-image-box .elementor-image-box-description{margin:0}</style><div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img decoding="async" width="194" height="139" src="https://aligngroup.co.in/wp-content/uploads/2022/09/Regular-Slotted-Container.png" class="attachment-full size-full wp-image-290" alt=""></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Regular Slotted <br>Carton (RSC)</h3><p class="elementor-image-box-description">RSC is one of the most preferred forms of packaging for all kinds of FMCG and automobile appliances, especially for shipping. They are usually kraft brown in colour and come with four flaps each on the top and bottom. Their sidewalls are sealed at one corner, commonly known as the ‘manufacturer’s joint’.</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e4e7d46" data-id="e4e7d46" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-fd9d2be elementor-position-top elementor-widget elementor-widget-image-box" data-id="fd9d2be" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img decoding="async" width="202" height="159" src="https://aligngroup.co.in/wp-content/uploads/2022/09/Half-Sloted-Containers-1.png" class="attachment-full size-full wp-image-287" alt=""></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Half Slotted<br> Carton (HSC)</h3><p class="elementor-image-box-description">This is a variation of the Regular Slotted Carton (RSC) that comes with a single set of flaps. This feature helps it slide over any product for convenient packaging. It can be used to pack appliances and FMCG products.</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-91f59e4" data-id="91f59e4" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3a2ee05 elementor-position-top elementor-widget elementor-widget-image-box" data-id="3a2ee05" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img decoding="async" width="165" height="147" src="https://aligngroup.co.in/wp-content/uploads/2022/09/1-300x271-1.png" class="attachment-full size-full wp-image-282" alt=""></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Full Overlap <br>Design Carton</h3><p class="elementor-image-box-description">In this design, all the flaps are equal in length and width of the box. They provide added strength by folding over each other, giving full protection to the top and bottom of the box. It can be used to transport FMCG products, automobile parts, and glass bottles for pharmaceutical businesses.</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-b26e37f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b26e37f" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1dcda64" data-id="1dcda64" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-12f1957 elementor-position-top elementor-widget elementor-widget-image-box" data-id="12f1957" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="185" height="157" src="https://aligngroup.co.in/wp-content/uploads/2022/09/Full-Tele-Design.png" class="attachment-full size-full wp-image-286" alt=""></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Full Telescope<br> Design Carton (FTD)</h3><p class="elementor-image-box-description">This two-piece box is specifically designed for enhanced stacking strength and strengthened protection in the horizontal direction. Hence, these boxes can be stored flatly and self-assembled without any tapes. These features make FTD a perfect choice for packaging pharmaceutical products, fruits, and vegetables.</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4649829" data-id="4649829" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-84cd01a elementor-position-top elementor-widget elementor-widget-image-box" data-id="84cd01a" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="209" height="166" src="https://aligngroup.co.in/wp-content/uploads/2022/09/Die-Cut-Boxes-1.png" class="attachment-full size-full wp-image-284" alt=""></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Die Cut <br>Boxes</h3><p class="elementor-image-box-description">If you’re aiming for agility in the assembly of packaging material, this is the right choice for you. Die cut boxes come with a quick assembly lock at the bottom, making them a great option for small packages in chemical, pharmaceutical, and art industries. The box also has a better aesthetic to give a more polished and premium feel to the packaging. To customise, you can choose from a variety of top flap options.</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c1a2dc0" data-id="c1a2dc0" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-1aa4eeb elementor-position-top elementor-widget elementor-widget-image-box" data-id="1aa4eeb" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="172" height="171" src="https://aligngroup.co.in/wp-content/uploads/2022/09/Dividers-1.png" class="attachment-full size-full wp-image-285" alt="" srcset="https://aligngroup.co.in/wp-content/uploads/2022/09/Dividers-1.png 172w, https://aligngroup.co.in/wp-content/uploads/2022/09/Dividers-1-150x150.png 150w"></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Partitioners <br>&amp; Dividers</h3><p class="elementor-image-box-description">As the name suggests, this type of packaging is used to organise boxes and bins into smaller sections so as to allow for more efficient storage and transportation of products. Partitioners and dividers are made from intersecting sheets of a corrugated board that create individual pockets to separate goods within a carton. This product also provides extra support and rigidity to the carton, protecting all the commodities within. The partitioner and divider can be supplied pre-assembled or loose for you to assemble yourself. They are designed to package supply parts of automobiles, appliances, and FMCG products where each small part has to be kept separate. </p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-beafde3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="beafde3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-95a4dcc" data-id="95a4dcc" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-f24c01b elementor-position-top elementor-widget elementor-widget-image-box" data-id="f24c01b" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="183" height="156" src="https://aligngroup.co.in/wp-content/uploads/2022/09/Carton-with-Lid.png" class="attachment-full size-full wp-image-283" alt=""></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Carton with <br>Top Lid</h3><p class="elementor-image-box-description">As a two piece box, this carton comes with a separate lid that can cover the top of the box without any tape. Compared to traditional cartons, it does a better job at providing top-down protection and saves time while packaging. This box is ideal for pharmaceutical industries requiring heavy raw materials, polymer batches, and chemical batches.</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-5bcc5c7" data-id="5bcc5c7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-76d021b elementor-position-top elementor-widget elementor-widget-image-box" data-id="76d021b" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="157" height="142" src="https://aligngroup.co.in/wp-content/uploads/2022/09/Heavy-duty-box.png" class="attachment-full size-full wp-image-288" alt=""></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Heavy Duty<br> Box</h3><p class="elementor-image-box-description">Designed to match international quality standards, this carton is widely used in electrical, electronic, and petrochemical industries. They are suitable for a heavy load and come with high stacking capabilities. The size can be tailor-made according to your need, and we can also supply options with heavy-duty corrugated cardboard suitable for the extra load. This type of packaging works very well to export completed automobiles such as autorickshaws and bikes in CKD format to other countries. </p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-018b205" data-id="018b205" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-cebf6f7 elementor-position-top elementor-widget elementor-widget-image-box" data-id="cebf6f7" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="231" height="122" src="https://aligngroup.co.in/wp-content/uploads/2022/09/Trays.png" class="attachment-full size-full wp-image-291" alt=""></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Tray Form<br> Boxes</h3><p class="elementor-image-box-description">Tray form boxes are slightly different from normal cartons since they feature a one-piece bottom. These trays are most commonly used in the food &amp; beverage industry to hold soft drinks cans and for the cold storage of fruits and vegetables. You can choose from three varieties of trays: glued trays, self-locking trays, and stitched trays.</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-2f6f0a4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2f6f0a4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b90d652" data-id="b90d652" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap">
+							</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-877929b" data-id="877929b" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-848c1bc elementor-position-top elementor-widget elementor-widget-image-box" data-id="848c1bc" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><a href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjUzOSIsInRvZ2dsZSI6ZmFsc2V9" tabindex="-1"><img loading="lazy" decoding="async" width="298" height="131" src="https://aligngroup.co.in/wp-content/uploads/2022/09/Innovative-Products.png" class="attachment-full size-full wp-image-292" alt=""></a></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title"><a href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjUzOSIsInRvZ2dsZSI6ZmFsc2V9">Innovative <br>Products</a></h3><p class="elementor-image-box-description">Tray form boxes are slightly different from normal cartons since they feature a one-piece bottom. These trays are most commonly used in the food &amp; beverage industry to hold soft drinks cans and for the cold storage of fruits and vegetables. You can choose from three varieties of trays: glued trays, self-locking trays, and stitched trays.</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-98cab93" data-id="98cab93" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap">
+							</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>

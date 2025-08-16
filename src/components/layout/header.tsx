@@ -52,31 +52,37 @@ export function Header() {
         className={'fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-background shadow-md'}
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex h-20 items-center justify-between">
-            <Link href="/" className="flex items-center gap-2" onClick={() => isMobileMenuOpen && setIsMobileMenuOpen(false)}>
+          <div className="flex h-20 items-center gap-6">
+            {/* Left: Logo */}
+            <Link href="/" className="flex items-center gap-2 flex-shrink-0" onClick={() => isMobileMenuOpen && setIsMobileMenuOpen(false)}>
               <Logo className="h-8 w-auto text-primary" />
-              <span className="font-headline text-xl font-bold">KVS Packaging</span>
+              <span className="font-headline text-xl font-bold whitespace-nowrap">KV PACKAGING SOLUTIONS</span>
             </Link>
-            <nav className="hidden lg:flex items-center gap-6">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.name}
-                  href={link.href}
-                  className={cn(
-                    'text-sm font-medium transition-colors hover:text-primary',
-                    pathname === link.href ? activeLinkClasses : ''
-                  )}
-                >
-                  {link.name}
-                </Link>
-              ))}
-            </nav>
-            <div className="hidden lg:flex items-center gap-4">
+            {/* Center: Nav */}
+            <div className="hidden lg:flex flex-1 justify-center">
+              <nav className="flex items-center gap-8">
+                {navLinks.map((link) => (
+                  <Link
+                    key={link.name}
+                    href={link.href}
+                    className={cn(
+                      'text-sm font-medium tracking-wide transition-colors hover:text-primary',
+                      pathname === link.href ? activeLinkClasses : ''
+                    )}
+                  >
+                    {link.name}
+                  </Link>
+                ))}
+              </nav>
+            </div>
+            {/* Right: CTA */}
+            <div className="hidden lg:flex items-center gap-4 flex-shrink-0">
               <Button asChild>
                 <Link href="/contact">Get a Quote</Link>
               </Button>
             </div>
-            <div className="lg:hidden">
+            {/* Mobile menu trigger */}
+            <div className="lg:hidden ml-auto">
               <Button onClick={toggleMobileMenu} variant="ghost" size="icon">
                 {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
               </Button>

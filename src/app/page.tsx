@@ -7,8 +7,8 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, CheckCircle, Leaf } from 'lucide-react';
-import { productCategories } from '@/content/data';
+import { ArrowRight, CheckCircle, Factory, Settings2, Gauge } from 'lucide-react';
+import { productCategories, industriesServed } from '@/content/data';
 import {
   Carousel,
   CarouselContent,
@@ -59,47 +59,41 @@ export default function Home() {
         <div className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 bg-primary/30 rounded-full blur-3xl" />
       </section> */}
       {/* --- HERO SECTION ALTERNATIVE 4 --- */}
-      {/* <section className="relative w-full flex items-center justify-center py-20 md:py-32 bg-white overflow-hidden border-b border-primary/10">
+  <section className="relative w-full flex items-center justify-center py-20 md:py-32 bg-white overflow-hidden border-b border-primary/10">
         <div className="container relative z-10 mx-auto flex flex-col-reverse md:flex-row items-center gap-12 px-4 md:px-8">
           <div className="flex-1 flex flex-col items-start text-left">
-            <span className="inline-flex items-center gap-2 bg-green-600 text-white rounded-full px-4 py-1 mb-4 text-sm font-semibold tracking-wide shadow-md">
-              <Leaf className="h-4 w-4 text-green-200 animate-bounce" />
-              Eco-Forward Thinking
-            </span>
-            <h2 className="text-4xl sm:text-5xl md:text-6xl font-headline font-black tracking-tight mb-4 text-green-700">
-              <span className="block">Packaging That</span>
-              <span className="text-primary">Inspires &amp; Endures</span>
-            </h2>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-headline font-black tracking-tight mb-6 text-zinc-900">
+              Precision Packaging. Reliable Performance.
+            </h1>
             <p className="text-base md:text-xl text-muted-foreground mb-8 max-w-2xl">
-              We deliver packaging that’s as bold as your brand and as responsible as your mission. Discover solutions that combine aesthetics, strength, and sustainability—without compromise.
+              Custom corrugated (RSC & HSC) and honeycomb systems engineered for protection, line efficiency and optimized material usage.
             </p>
             <div className="flex gap-4">
-              <Button asChild size="lg" className="font-headline bg-green-700 text-white hover:bg-green-800">
-                <Link href="/products">Our Range</Link>
+              <Button asChild size="lg" className="font-headline">
+                <Link href="/products">View Solutions</Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="font-headline border-green-700 text-green-700 hover:bg-green-50">
-                <Link href="/about">Meet the Team</Link>
+              <Button asChild size="lg" variant="outline" className="font-headline">
+                <Link href="/about">About Us</Link>
               </Button>
             </div>
           </div>
           <div className="flex-1 flex items-center justify-center">
-            <div className="relative w-80 h-96 md:w-[28rem] md:h-[32rem] rounded-3xl overflow-hidden shadow-2xl border-8 border-primary/10 bg-gradient-to-tr from-green-100 via-white to-green-50 flex items-end">
+            <div className="relative w-80 h-96 mt-8 md:mt-0 md:w-[28rem] md:h-[32rem] rounded-3xl overflow-hidden shadow-2xl border border-zinc-200 bg-white flex items-end">
               <Image
-                src="/images/4.jpg"
+                src="/images/001.jpg"
                 alt="Premium sustainable packaging"
                 fill
                 className="object-cover object-bottom"
                 sizes="(max-width:768px) 80vw, 40vw"
                 priority={false}
               />
-              <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-green-700/60 via-transparent to-transparent" />
             </div>
           </div>
         </div>
-        <div className="pointer-events-none absolute -top-24 left-1/2 -translate-x-1/2 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
-      </section> */}
+        {/* Removed decorative colored blobs */}
+      </section>
             {/* --- HERO SECTION ALTERNATIVE 5 --- */}
-      <section className="relative w-full flex items-center justify-center py-24 md:py-40 bg-gradient-to-b from-white via-zinc-50 to-zinc-100 overflow-hidden">
+  {/* <section className="relative w-full flex items-center justify-center py-24 md:py-40 bg-gradient-to-b from-white via-zinc-50 to-zinc-100 overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           <div className="w-[600px] h-[600px] rounded-full bg-zinc-200/30 blur-3xl" />
         </div>
@@ -119,21 +113,21 @@ export default function Home() {
             Pure. Responsible. Refined.
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-headline font-bold tracking-tight mb-4 text-zinc-900">
-            Minimal Impact, Maximum Performance
+            MINIMAL IMPACT, MAXIMUM PERFORMANCE & QUALITY
           </h2>
-          <p className="text-base md:text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Our minimalist packaging solutions are designed to reduce waste and elevate your brand’s elegance. Choose simplicity that speaks volumes for the planet and your business.
+          <p className="text-base md:text-lg text-muted-foreground mb-8 max-w-2xl mx-auto font-medium">
+            THE PACKAGING SAFETY OF CUSTOMERS’ GOODS IS OUR RESPONSIBILITY. We engineer corrugated & honeycomb solutions that balance strength, sustainability and operational efficiency.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="font-headline bg-zinc-600 text-white hover:bg-zinc-700">
-              <Link href="/products">Minimal Collection</Link>
+              <Link href="/products">Explore Solutions</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="font-headline border-zinc-600 text-zinc-700 hover:bg-zinc-50">
-              <Link href="/contact">Contact Minimalist Team</Link>
+              <Link href="/contact">Request a Quote</Link>
             </Button>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section id="products" className="w-full py-12 md:py-24 lg:py-32 bg-white">
         <div className="container mx-auto px-4 md:px-6">
@@ -142,10 +136,10 @@ export default function Home() {
               Our Products
             </div>
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">
-              Packaging for Every Need
+              Engineered Packaging Solutions
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              From robust corrugated boxes to elegant folding cartons, we provide a wide range of packaging solutions tailored to your industry.
+              Focused portfolio specializing in Corrugated RSC / Half Slotted Containers and Honeycomb Board systems—customizable in size, grade, flute, thickness & finish.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -173,7 +167,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-24 lg:py-32">
+  <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
             <div className="space-y-4">
@@ -184,38 +178,38 @@ export default function Home() {
                 State-of-the-Art Manufacturing
               </h2>
               <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
-                Our facilities are equipped with the latest technology to deliver high-quality, custom packaging solutions with precision and speed.
+                Wadegavhan facility (near Ranjangaon & Supa MIDC) equipped for precision converting, rapid prototyping & high-volume converting of corrugated & honeycomb structures.
               </p>
               <ul className="grid gap-4">
                 <li className="flex items-start gap-4">
                   <CheckCircle className="mt-1 h-6 w-6 text-primary" />
                   <div>
                     <h3 className="font-headline font-semibold">Custom Design & Prototyping</h3>
-                    <p className="text-muted-foreground">Collaborate with our experts to create the perfect packaging.</p>
+                    <p className="text-muted-foreground">Rapid sampling of RSC, HSC & honeycomb panel formats tailored to line ergonomics.</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-4">
                   <CheckCircle className="mt-1 h-6 w-6 text-primary" />
                   <div>
                     <h3 className="font-headline font-semibold">High-Volume Production</h3>
-                    <p className="text-muted-foreground">Scalable manufacturing to meet your demand.</p>
+                    <p className="text-muted-foreground">Efficient converting lines enabling consistent, lean delivery cycles.</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-4">
                   <CheckCircle className="mt-1 h-6 w-6 text-primary" />
                   <div>
                     <h3 className="font-headline font-semibold">Quality Assurance</h3>
-                    <p className="text-muted-foreground">Rigorous testing to ensure your product is protected.</p>
+                    <p className="text-muted-foreground">Material grading, compression integrity & fit validation for reduced transit damage.</p>
                   </div>
                 </li>
               </ul>
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                '/images/1.jpg',
-                '/images/2.jpg',
-                '/images/3.jpg',
-                '/images/4.jpg',
+                '/images/001.jpg',
+                '/images/002.jpg',
+                '/images/003.jpg',
+                '/images/004.jpg',
               ].map((src, i) => (
                 <div key={i} className="relative w-full aspect-square rounded-lg overflow-hidden">
                   <Image
@@ -235,66 +229,118 @@ export default function Home() {
       <section className="w-full py-12 md:py-24 lg:py-32 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
-            <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">Committed to Sustainability</h2>
+            <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">Operational Excellence</h2>
             <p className="max-w-[900px] text-primary-foreground/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              We believe in a greener future. Our sustainable packaging solutions help reduce environmental impact while protecting your products with innovative, eco-friendly materials and designs.
+              Lean-driven converting, rigorous quality metrics and agile prototyping accelerate deployment while reducing total cost of packaging ownership.
             </p>
-            <Button asChild size="lg" variant="secondary" className="font-headline">
-              <Link href="/sustainability">Learn About Our Sustainability <Leaf className="ml-2 h-5 w-5"/></Link>
-            </Button>
+            <div className="grid gap-6 sm:grid-cols-3 w-full max-w-5xl mt-4">
+              {[{
+                icon: Factory,
+                title: 'Throughput Reliability',
+                desc: 'Balanced production scheduling & preventive maintenance minimize downtime.'
+              }, {
+                icon: Settings2,
+                title: 'Engineering Support',
+                desc: 'Collaborative design iterations ensure line compatibility & ergonomic loading.'
+              }, {
+                icon: Gauge,
+                title: 'Performance Analytics',
+                desc: 'Data-informed optimization of board grade, flute profile & compression strength.'
+              }].map((b,i)=>(
+                <Card key={i} className="bg-white border-zinc-200 hover:shadow-md transition-shadow text-left">
+                  <CardContent className="p-6 flex flex-col gap-3">
+                    <div className="w-12 h-12 rounded-md bg-zinc-900 text-white flex items-center justify-center">
+                      <b.icon className="h-6 w-6" />
+                    </div>
+                    <h3 className="font-headline font-semibold text-lg text-zinc-900">{b.title}</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{b.desc}</p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
       <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container mx-auto px-4 md:px-6">
-          <h2 className="text-3xl font-headline font-bold tracking-tighter text-center sm:text-5xl mb-12">
-            What Our Clients Say
-          </h2>
-          <Carousel className="w-full max-w-8xl mx-auto">
-            <CarouselContent>
-              {[...Array(9)].map((_, index) => (
-                <CarouselItem className="md:basis-1/3" key={index}>
-                  <Card>
-                    <CardContent className="flex flex-col items-center justify-center p-8 text-center">
-                       <div className="relative w-24 h-24 rounded-full mb-4 overflow-hidden">
-                         <Image
-                           src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=200&q=60"
-                           alt="Client portrait"
-                           fill
-                           className="object-cover"
-                         />
-                       </div>
-                      <p className="text-lg text-muted-foreground mb-4 max-w-2xl">
-                        "KVS Packaging transformed our shipping process. Their custom solutions are innovative, sustainable, and have significantly reduced our costs."
-                      </p>
-                      <h3 className="font-headline font-semibold">Jane Doe, CEO</h3>
-                      <p className="text-sm text-muted-foreground">Eco-Friendly Goods Inc.</p>
-                    </CardContent>
-                  </Card>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
-          </Carousel>
+          <h2 className="text-3xl font-headline font-bold tracking-tighter text-center sm:text-5xl mb-12">Testimonials</h2>
+          {(() => {
+            const testimonials = [
+                {
+                  quote: 'KV Packaging Solutions delivered precisely what we needed—custom boxes that fit our production line and reduced damage in transit.',
+                  client: 'Automotive Components Ltd.',
+                  project: 'Half Slotted Container Development'
+                },
+                {
+                  quote: 'Honeycomb board panels gave us strength without weight—our produce arrived protected and fresh.',
+                  client: 'AgriFresh Exports',
+                  project: 'Honeycomb Board Packaging'
+                },
+                {
+                  quote: 'Reliable, high-quality corrugated packaging with fast turnaround. A trusted partner.',
+                  client: 'FMCG Retailer (Confidential)',
+                  project: 'Customized Corrugated Packaging'
+                }
+              ];
+            const showArrows = testimonials.length > 4;
+            return (
+              <Carousel className="w-full max-w-8xl mx-auto">
+                <CarouselContent>
+                  {testimonials.map((t, index) => (
+                    <CarouselItem className="md:basis-1/3" key={index}>
+                      <Card className="h-full flex">
+                        <CardContent className="flex flex-col items-center justify-between p-8 text-center gap-4 h-full">
+                          <div className="text-lg text-muted-foreground mb-4 max-w-2xl italic">“{t.quote}”</div>
+                          <h3 className="font-headline font-semibold">{t.client}</h3>
+                          <p className="text-sm text-muted-foreground">{t.project}</p>
+                        </CardContent>
+                      </Card>
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                {showArrows && <CarouselPrevious />}
+                {showArrows && <CarouselNext />}
+              </Carousel>
+            );
+          })()}
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-primary text-primary-foreground">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center">
+            <div className="inline-block rounded-lg px-3 py-1 text-sm font-headline">Industries Served</div>
+            <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">Versatility Across Sectors</h2>
+            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed">Solutions engineered for performance—from high-volume FMCG to precision automotive components.</p>
+          </div>
+          <div className="grid gap-6 sm:grid-cols-2 mt-4 lg:grid-cols-5">
+            {industriesServed.map(ind => (
+              <Card key={ind.name} className="h-full">
+                <CardContent className="p-4 flex flex-col">
+                  <h3 className="font-headline font-semibold mb-2 text-sm uppercase tracking-wide">{ind.name}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{ind.description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+  <section className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
         <div className="container mx-auto grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-3">
             <h2 className="text-3xl font-headline font-bold tracking-tighter md:text-4xl/tight">
-              Ready to elevate your packaging?
+              Ready to elevate your packaging performance?
             </h2>
             <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Let's discuss your needs. Our team is ready to help you create the perfect packaging solution.
+              Discuss line efficiency, protection goals & sustainability targets with our engineering-led team.
             </p>
           </div>
           <div className="mx-auto w-full max-w-sm space-y-2">
             <Button asChild size="lg" className="font-headline w-full">
               <Link href="/contact">
-                Get in Touch <ArrowRight className="ml-2 h-5 w-5" />
+                Start a Project <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
           </div>

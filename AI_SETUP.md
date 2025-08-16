@@ -1,4 +1,4 @@
-# KVS Packaging Studio
+# KV PACKAGING SOLUTIONS Studio
 
 ## AI Chat Setup
 
