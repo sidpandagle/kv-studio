@@ -21,7 +21,7 @@ const pillars = [
   {
     icon: Gauge,
     title: 'Engineering Optimization',
-    description: 'Data-driven selection of board grade, flute & honeycomb thickness for performance-to-cost balance.'
+    description: 'Data-driven selection of board grade, flute & corrugated thickness for performance-to-cost balance.'
   }
 ];
 
@@ -33,7 +33,7 @@ export default function CapabilitiesPage() {
           Capabilities & Quality Framework
         </h1>
         <p className="mt-4 max-w-3xl mx-auto text-muted-foreground md:text-xl/relaxed">
-          Our Wadegavhan facility integrates lean manufacturing, rigorous testing and engineering analytics to deliver reliable corrugated & honeycomb solutions with accelerated deployment timelines.
+          Our Supa MIDC facility integrates lean manufacturing, rigorous testing and engineering analytics to deliver reliable corrugated & corrugated solutions with accelerated deployment timelines.
         </p>
       </section>
 

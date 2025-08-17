@@ -62,11 +62,12 @@ export default function Home() {
   <section className="relative w-full flex items-center justify-center py-20 md:py-32 bg-white overflow-hidden border-b border-primary/10">
         <div className="container relative z-10 mx-auto flex flex-col-reverse md:flex-row items-center gap-12 px-4 md:px-8">
           <div className="flex-1 flex flex-col items-start text-left">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-headline font-black tracking-tight mb-6 text-zinc-900">
-              Precision Packaging. Reliable Performance.
+            <h1 className="text-4xl sm:text-5xl md:text-5xl font-headline font-black tracking-tight mb-6 text-zinc-900">
+              MINIMUM IMPACT, MAXIMUM PERFORMANCE, TIME DELIVERY & BEST QUALITY
             </h1>
             <p className="text-base md:text-xl text-muted-foreground mb-8 max-w-2xl">
-              Custom corrugated (RSC & HSC) and honeycomb systems engineered for protection, line efficiency and optimized material usage.
+              THE PACKAGING SAFETY OF CUSTOMERS’ GOODS IS OUR RESPONSIBILITY. 
+              {/* We engineer corrugated boxes and board solutions that balance strength, sustainability and operational efficiency. */}
             </p>
             <div className="flex gap-4">
               <Button asChild size="lg" className="font-headline">
@@ -116,7 +117,7 @@ export default function Home() {
             MINIMAL IMPACT, MAXIMUM PERFORMANCE & QUALITY
           </h2>
           <p className="text-base md:text-lg text-muted-foreground mb-8 max-w-2xl mx-auto font-medium">
-            THE PACKAGING SAFETY OF CUSTOMERS’ GOODS IS OUR RESPONSIBILITY. We engineer corrugated & honeycomb solutions that balance strength, sustainability and operational efficiency.
+            THE PACKAGING SAFETY OF CUSTOMERS’ GOODS IS OUR RESPONSIBILITY. We engineer corrugated  solutions that balance strength, sustainability and operational efficiency.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="font-headline bg-zinc-600 text-white hover:bg-zinc-700">
@@ -139,7 +140,7 @@ export default function Home() {
               Engineered Packaging Solutions
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Focused portfolio specializing in Corrugated RSC / Half Slotted Containers and Honeycomb Board systems—customizable in size, grade, flute, thickness & finish.
+              Focused portfolio specializing in Corrugated RSC / Half Slotted Containers and Corrugated Board systems—customizable in size, grade, flute, thickness & finish.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -178,14 +179,14 @@ export default function Home() {
                 State-of-the-Art Manufacturing
               </h2>
               <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
-                Wadegavhan facility (near Ranjangaon & Supa MIDC) equipped for precision converting, rapid prototyping & high-volume converting of corrugated & honeycomb structures.
+                Supa MIDC facility equipped for precision converting, rapid prototyping & high-volume converting of corrugated  structures.
               </p>
               <ul className="grid gap-4">
                 <li className="flex items-start gap-4">
                   <CheckCircle className="mt-1 h-6 w-6 text-primary" />
                   <div>
                     <h3 className="font-headline font-semibold">Custom Design & Prototyping</h3>
-                    <p className="text-muted-foreground">Rapid sampling of RSC, HSC & honeycomb panel formats tailored to line ergonomics.</p>
+                    <p className="text-muted-foreground">Rapid sampling of RSC, HSC  panel formats tailored to line ergonomics.</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-4">
@@ -273,9 +274,9 @@ export default function Home() {
                   project: 'Half Slotted Container Development'
                 },
                 {
-                  quote: 'Honeycomb board panels gave us strength without weight—our produce arrived protected and fresh.',
+                  quote: 'Corrugated Board panels gave us strength without weight—our produce arrived protected and fresh.',
                   client: 'AgriFresh Exports',
-                  project: 'Honeycomb Board Packaging'
+                  project: 'Corrugated Board Packaging'
                 },
                 {
                   quote: 'Reliable, high-quality corrugated packaging with fast turnaround. A trusted partner.',
@@ -292,7 +293,7 @@ export default function Home() {
                       <Card className="h-full flex">
                         <CardContent className="flex flex-col items-center justify-between p-8 text-center gap-4 h-full">
                           <div className="text-lg text-muted-foreground mb-4 max-w-2xl italic">“{t.quote}”</div>
-                          <h3 className="font-headline font-semibold">{t.client}</h3>
+                          {/* <h3 className="font-headline font-semibold">{t.client}</h3> */}
                           <p className="text-sm text-muted-foreground">{t.project}</p>
                         </CardContent>
                       </Card>
@@ -312,7 +313,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="inline-block rounded-lg px-3 py-1 text-sm font-headline">Industries Served</div>
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">Versatility Across Sectors</h2>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed">Solutions engineered for performance—from high-volume FMCG to precision automotive components.</p>
+            <p className="max-w-[900px] text-primary-foreground/80 md:text-xl/relaxed">Solutions engineered for performance—from high-volume FMCG to precision automotive components.</p>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 mt-4 lg:grid-cols-5">
             {industriesServed.map(ind => (

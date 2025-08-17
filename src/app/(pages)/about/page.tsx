@@ -4,14 +4,14 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'About KV Packaging Solutions',
-  description: 'Corrugated & honeycomb packaging specialists delivering customized, sustainable protection.',
+  description: 'Corrugated & corrugated packaging specialists delivering customized, sustainable protection.',
 };
 
 // Placeholder leadership data – replace with real team photos when available
 const leadership = [
-  { name: 'Gahinath Vishwasrao', phone: 9763021933 },
-  { name: 'Shrikant Khodade', phone: 9975781200 },
-  { name: 'Amar Vishwasrao', phone: 9766520651 },
+  // { name: 'Gahinath Vishwasrao', phone: 9763021933 },
+  { name: 'Shrikant Khodade', phone: "9975781200"+' / '+"8858548787" },
+  { name: 'Amar Vishwasrao', phone: "9763021933"+' / '+"9766520651" },
   // { name: 'Team Member 4', role: 'Sustainability', image: 'https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=600&q=60' },
 ];
 
@@ -23,7 +23,7 @@ export default function AboutPage() {
           Purpose-Built Protective Packaging
         </h1>
         <p className="mt-4 max-w-3xl mx-auto text-muted-foreground md:text-xl/relaxed">
-          KV PACKAGING SOLUTIONS delivers high-performance corrugated and honeycomb board solutions from our Wadegavhan facility near Ranjangaon & Supa MIDC—serving white goods, FMCG, agriculture & automotive sectors with reliability and agility.
+          KV PACKAGING SOLUTIONS delivers high-performance Corrugated Boxes and Board from our SUPA MIDC facility serving White Goods, Industrial, FMCG, Agriculture and Automotive sectors with Reliability and Agility.
         </p>
       </section>
 
@@ -64,7 +64,7 @@ export default function AboutPage() {
           <path d="M9 21V9h6v12" />
         </svg>
           ),
-          text: "Cutting-edge manufacturing plant in Wadegavhan (near Ranjangaon & Supa MIDC)",
+          text: "Cutting-edge manufacturing plant in Supa MIDC",
         },
         {
           icon: (
@@ -75,7 +75,7 @@ export default function AboutPage() {
           <rect width="20" height="14" x="2" y="7" rx="2" />
         </svg>
           ),
-          text: "Serving white goods, FMCG, agriculture & automotive supply chains",
+          text: "Serving Industrial, White Goods, FMCG, Agriculture & Automotive supply chains",
         },
         {
           icon: (
@@ -86,15 +86,15 @@ export default function AboutPage() {
           ),
           text: "Specialization in RSC & Half Slotted Container (HSC) variants for ergonomic loading",
         },
-        {
-          icon: (
-        <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-          <circle cx="12" cy="12" r="10" />
-          <path d="M8 12l2 2 4-4" />
-        </svg>
-          ),
-          text: "Customized honeycomb board solutions for cushioning, layering & structural reinforcement",
-        },
+        // {
+        //   icon: (
+        // <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+        //   <circle cx="12" cy="12" r="10" />
+        //   <path d="M8 12l2 2 4-4" />
+        // </svg>
+        //   ),
+        //   text: "Customized corrugated board solutions for cushioning, layering & structural reinforcement",
+        // },
         {
           icon: (
         <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
@@ -127,7 +127,7 @@ export default function AboutPage() {
 
       <section>
         <h2 className="text-3xl font-headline font-bold text-center mb-12">Leadership & Expertise</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
           {leadership.map((person, index) => (
             <Card key={person.name} className="text-center overflow-hidden">
               <CardHeader className="p-0">

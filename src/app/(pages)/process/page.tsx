@@ -7,7 +7,7 @@ import { processes } from '@/content/data';
 
 export const metadata: Metadata = {
   title: 'Process | KV Packaging Solutions',
-  description: 'Core manufacturing and quality processes that enable precision corrugated & honeycomb packaging performance.'
+  description: 'Core manufacturing and quality processes that enable precision corrugated & corrugated packaging performance.'
 };
 
 export default function ProcessPage() {
@@ -23,9 +23,9 @@ export default function ProcessPage() {
         {processes.map(proc => (
           <Card key={proc.slug} className="flex flex-col overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
             <CardHeader className="p-0">
-              <div className="relative w-full h-56">
+              {/* <div className="relative w-full h-56">
                 <Image src={proc.image} alt={proc.name} fill className="object-cover" sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw" />
-              </div>
+              </div> */}
             </CardHeader>
             <CardContent className="p-6 flex flex-col flex-grow">
               <CardTitle className="font-headline text-2xl mb-2">{proc.name}</CardTitle>

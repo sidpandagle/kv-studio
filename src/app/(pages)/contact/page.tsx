@@ -5,7 +5,7 @@ import { Map } from '@/components/ui/map';
 
 export const metadata: Metadata = {
   title: 'Contact | KV Packaging Solutions',
-  description: 'Get in touch with KV Packaging Solutions for corrugated & honeycomb packaging inquiries.',
+  description: 'Get in touch with KV Packaging Solutions for corrugated & corrugated packaging inquiries.',
 };
 
 export default function ContactPage() {
@@ -40,11 +40,12 @@ export default function ContactPage() {
                       <p className="text-muted-foreground space-y-1">
                         <a href="tel:+919975781200" className="block hover:text-primary">+91 9975781200</a>
                         <a href="tel:+919763021933" className="block hover:text-primary">+91 9763021933</a>
+                        <a href="tel:+919766520651" className="block hover:text-primary">+91 9766520651</a>
                       </p>
                       <div className="mt-2 text-sm">
                         <span className="font-semibold">WhatsApp:</span>{' '}
                         <a href="https://wa.me/919766520651" className="hover:underline">+91 9766520651</a>,{' '}
-                        <a href="https://wa.me/918858548787" className="hover:underline">8858548787</a>
+                        <a href="https://wa.me/918858548787" className="hover:underline">+91 8858548787</a>
                       </div>
                   </div>
               </div>
@@ -66,8 +67,8 @@ export default function ContactPage() {
 
       <section>
         <h2 className="text-2xl font-headline font-bold tracking-tight mb-4">Find Us</h2>
-        <p className="text-muted-foreground mb-6 max-w-2xl">Our manufacturing facility is strategically positioned near Ranjangaon & Supa MIDC for efficient regional distribution. Visits are welcome by prior appointment.</p>
-        <Map lat={18.7606} lng={74.4154} zoom={11} title="KV Packaging Solutions Facility" className="w-full" height={400} />
+        <p className="text-muted-foreground mb-6 max-w-2xl">Our manufacturing facility is strategically positioned in Supa MIDC for efficient regional distribution. Visits are welcome by prior appointment.</p>
+        <Map lat={18.965817768228202} lng={74.50925378756519} zoom={11} title="KV Packaging Solutions Facility" className="w-full" height={400} />
       </section>
     </div>
   );

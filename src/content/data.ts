@@ -21,74 +21,79 @@ export const productCategories: ProductCategory[] = [
     slug: 'regular-slotted-carton-rsc',
     description: 'Preferred corrugated shipper with four flaps top & bottom and a manufacturer\'s joint—versatile for FMCG & appliance logistics.',
     hint: 'regular slotted carton rsc',
-    image: 'https://aligngroup.co.in/wp-content/uploads/2022/09/Regular-Slotted-Container.png'
+    image: '/images/products/Regular Slotted Carton.jpg'
   },
   {
     name: 'Half Slotted Carton (HSC)',
     slug: 'half-slotted-carton-hsc',
     description: 'Single set of flaps enabling slide-over loading—ideal for appliances & FMCG overpacks.',
     hint: 'half slotted carton hsc',
-    image: 'https://aligngroup.co.in/wp-content/uploads/2022/09/Half-Sloted-Containers-1.png'
+    image: '/images/products/Half-Slotted-Container.webp'
   },
   {
     name: 'Full Overlap Design Carton',
     slug: 'full-overlap-design-carton',
     description: 'Equal length flaps fully overlap for enhanced top & bottom stacking strength and impact protection.',
     hint: 'full overlap carton',
-    image: 'https://aligngroup.co.in/wp-content/uploads/2022/09/1-300x271-1.png'
+    image: '/images/products/Fulloverlap.webp'
   },
   {
     name: 'Full Telescope Design Carton (FTD)',
     slug: 'full-telescope-design-carton-ftd',
     description: 'Two-piece telescoping design for horizontal stacking strength—flat packed & self-assembled without tape.',
     hint: 'full telescope design carton',
-    image: 'https://aligngroup.co.in/wp-content/uploads/2022/09/Full-Tele-Design.png'
+    image: '/images/products/full-telescope-design-style-carton-FTD-1.jpg'
+
   },
   {
     name: 'Die Cut Boxes',
     slug: 'die-cut-boxes',
     description: 'Quick assembly die-cut formats with auto-lock bottoms for premium small parcel presentation & speed.',
     hint: 'die cut box',
-    image: 'https://aligngroup.co.in/wp-content/uploads/2022/09/Die-Cut-Boxes-1.png'
+    image: '/images/products/die-cut-box.webp'
   },
   {
     name: 'Partitioners & Dividers',
     slug: 'partitioners-dividers',
     description: 'Intersecting corrugated grids creating pockets for separation, rigidity & part protection inside master cartons.',
     hint: 'partitioners dividers',
-    image: 'https://aligngroup.co.in/wp-content/uploads/2022/09/Dividers-1.png'
+    image: '/images/products/PartitionsAndDivders.jpg'
   },
   {
     name: 'Carton with Top Lid',
     slug: 'carton-with-top-lid',
     description: 'Two-piece set with friction-fit lid delivering improved top-down protection & faster close—ideal for bulk materials.',
     hint: 'carton with top lid',
-    image: 'https://aligngroup.co.in/wp-content/uploads/2022/09/Carton-with-Lid.png'
+    image: '/images/products/carton-with-top-lid.webp'
   },
   {
     name: 'Heavy Duty Box',
     slug: 'heavy-duty-box',
     description: 'High stacking, export-ready heavy duty corrugated engineered for dense or CKD automotive & industrial loads.',
     hint: 'heavy duty box',
-    image: 'https://aligngroup.co.in/wp-content/uploads/2022/09/Heavy-duty-box.png'
+    image: '/images/products/HeavyDutyBox.jpg'
   },
   {
     name: 'Tray Form Boxes',
     slug: 'tray-form-boxes',
     description: 'One-piece bottom tray formats (glued / self-locking / stitched) for beverage multipacks & chilled produce.',
     hint: 'tray form boxes',
-    image: 'https://aligngroup.co.in/wp-content/uploads/2022/09/Trays.png'
+    image: '/images/products/tray-boxes.jpg'
   },
-  {
-    name: 'Innovative Products',
-    slug: 'innovative-products',
-    description: 'Custom engineered corrugated structures & value-added concepts tailored to emerging application needs.',
-    hint: 'innovative corrugated products',
-    image: 'https://aligngroup.co.in/wp-content/uploads/2022/09/Innovative-Products.png'
-  }
+  // {
+  //   name: 'Innovative Products',
+  //   slug: 'innovative-products',
+  //   description: 'Custom engineered corrugated structures & value-added concepts tailored to emerging application needs.',
+  //   hint: 'innovative corrugated products',
+  //   image: 'https://aligngroup.co.in/wp-content/uploads/2022/09/Innovative-Products.png'
+  // }
 ];
 
 export const industriesServed = [
+  {
+    name: 'Electronics',
+    description: 'Electronics, fragile equipment & specialized use cases needing tailored protection.'
+  },
   {
     name: 'Industrial Manufacturing',
     description: 'Load-bearing packaging for machinery parts & engineered goods ensuring secure transit.'
@@ -99,16 +104,12 @@ export const industriesServed = [
   },
   {
     name: 'Agriculture',
-    description: 'Ventilated corrugated & honeycomb solutions ideal for fresh produce & farm supplies.'
+    description: 'Ventilated corrugated & corrugated solutions ideal for fresh produce & farm supplies.'
   },
   {
     name: 'Automotive',
     description: 'Custom-fit boxes & inserts for automotive components improving assembly line efficiency.'
   },
-  {
-    name: 'Custom / Niche',
-    description: 'Electronics, fragile equipment & specialized use cases needing tailored protection.'
-  }
 ];
 
 // Manufacturing / operational processes (modeled similar to productCategories)
@@ -126,74 +127,71 @@ export const processes: ProcessSpec[] = [
   {
     name: 'High Speed 5 Ply Auto Board Plant',
     slug: 'high-speed-5-ply-auto-board-plant',
-    description: '2250 mm deckle, high-speed (220 m/min) fully automated 3 & 5 ply corrugation with PMS-driven order change and inline board transfer.',
+    description: 'Fully automated 3 & 5 ply corrugation line (1600 mm deckle, 100 m/min) with PMS-driven order change and inline board transfer.',
     image: 'https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-6.jpeg',
-    // extraImages: [
-    //   'https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-3.jpeg'
-    // ],
     features: [
-      'Deckle size 2250 mm enabling large format conversion',
-      'High speed up to 220 meters per minute',
-      '3 & 5 ply capability with vertical flute conversion',
-      'Single joint conversion minimizing material & joints',
-      'Auto glue control & synchronized order change via PMS',
-      'Automated down stacker output & conveyor fed transfer to printer',
-      'Forklift / pallet-free internal board handling reduces damage risk'
+      '1600 mm deckle for large format production',
+      'Up to 100 meters per minute speed',
+      'Supports both 3 & 5 ply with vertical flute',
+      'Internal board handling without forklifts or pallets',
+      'Automatic glue control and synchronized order changes via PMS',
+      'Single joint conversion for reduced material and joints',
     ]
   },
   {
     name: 'Printing',
     slug: 'printing',
-    description: 'Jumbo multi-colour printer–slotter–die cutter (2200 x 3600 mm) enabling high quality, consistent vertical flute packaging graphics.',
+    description: 'Jumbo 2-colour printer–slotter–die cutter (1600 x 3000 mm) for high-quality, consistent graphics on vertical flute packaging.',
     image: 'https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.45-PM-7.jpeg',
     features: [
-      'High speed multi-colour printer–slotter–die cutter',
-      'Jumbo size 2200 x 3600 mm format',
-      'Enables conversion of horizontal flute refrigerator boxes to vertical flute',
-      'Supports LED, WM, RAC & FMCG packaging with consistent print quality',
-      'Infeed & outfeed board flow on roller conveyors for smooth handling'
+      'High-speed 2-colour printer–slotter–die cutter',
+      'Handles jumbo 1600 x 3000 mm formats',
+      'Smooth board handling with roller conveyors for infeed and outfeed',
+      'Delivers consistent print quality for LED, WM, RAC & FMCG packaging',
+      'Converts horizontal flute refrigerator boxes to vertical flute',
     ]
   },
   {
-    name: '1 Piece & 2 Piece Auto Stitcher',
-    slug: '1-piece-2-piece-auto-stitcher',
-    description: 'Large format and single piece automatic stitching for refrigerator, automobile, LED, WM & RAC packaging formats.',
-    image: 'https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-3.jpeg',
-    features: [
-      'Large format 1/2 piece auto stitcher for refrigerator & automobile boxes',
-      'Dedicated 1 piece auto stitcher lines for LED, WM & RAC boxes'
-    ]
-  },
-  {
-    name: 'Auto Folder Gluer',
-    slug: 'auto-folder-gluer',
-    description: 'High speed automatic folder gluer line with fully automatic bundling for FMCG applications.',
+    name: 'Auto Folder Gluer With Stitcher And Bundling',
+    slug: 'auto-folder-gluer-with-stitcher-and-bundling',
+    description: 'High-speed automatic folder gluer line with fully automated bundling, ideal for FMCG packaging.',
     image: 'https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM.jpeg',
     features: [
-      'High speed automatic folding & gluing',
-      'Fully automatic bundling system optimizes downstream handling'
+      'Automatic high-speed folding and gluing',
+      'Fully automated bundling system for efficient downstream handling'
+    ]
+  },
+  {
+    name: '2 Piece Auto Stitcher',
+    slug: '2-piece-auto-stitcher',
+    description: 'Automatic stitching for large format and single piece boxes used in refrigerators, automobiles, LED, WM & RAC packaging.',
+    image: 'https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM-3.jpeg',
+    features: [
+      'Handles large format 2 piece auto stitching for refrigerator and automobile boxes',
+      'Dedicated lines for 2 piece auto stitching of LED, WM & RAC boxes'
     ]
   },
   {
     name: 'Quality Assurance',
     slug: 'quality-assurance',
-    description: 'Skilled QA team with fully equipped lab performing incoming, in-line & outgoing inspections ensuring consistent performance.',
+    description: 'Comprehensive QA with a skilled team and a fully equipped lab for incoming, in-line, and outgoing inspections.',
     image: 'https://craftedsolutions.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-22-at-10.41.46-PM.jpeg',
     features: [
       'Fully equipped quality control laboratory',
-      'Skilled QA team executing ILO (Incoming, Line & Outgoing) inspection cycles'
+      'Skilled QA team conducting incoming, in-line, and outgoing inspections'
     ],
     equipment: [
-      'Box Compression Strength Tester',
-      'Hot Air Oven',
-      'Bursting Strength Tester (Board)',
-      'Bursting Strength Tester (Paper)',
-      'Crush Resistance Tester',
       'GSM Tester & GSM Cutter',
-      'RCT Sample Cutter',
+      'Bursting Strength Tester (Paper)',
+      'Bursting Strength Tester (Board)',
       'COBB Tester',
+      'Ink Rub Tester',
+      'Moisture Meter Tester',
+      'Hot Air Oven',
+      'Box Compression Strength Tester',
+      'Crush Resistance Tester',
       'B4 Cup (Ink Viscosity)',
-      'Ink Rub Tester'
+      'RCT Sample Cutter',
     ]
   }
 ];

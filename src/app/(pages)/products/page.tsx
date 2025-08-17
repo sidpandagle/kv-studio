@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Products | KV Packaging Solutions',
-  description: 'Corrugated RSC / Half Slotted Containers and Honeycomb Board Packaging engineered for performance & sustainability.',
+  description: 'Corrugated RSC / Half Slotted Containers and corrugated Board Packaging engineered for performance & sustainability.',
 };
 
 export default function ProductsPage() {
@@ -15,7 +15,7 @@ export default function ProductsPage() {
     <section>
       <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
   <h1 className="text-4xl font-headline font-bold tracking-tighter sm:text-5xl">Packaging Solutions</h1>
-  <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed">Focused portfolio enabling depth & expertise: Corrugated RSC / HSC formats for efficient loading & transit protection, and Honeycomb Board systems for lightweight strength, cushioning & structural support.</p>
+  <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed">Focused portfolio enabling depth & expertise: Corrugated RSC / HSC formats for efficient loading & transit protection, and corrugated Board systems for lightweight strength, cushioning & structural support.</p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {productCategories.map((category) => (
