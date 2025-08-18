@@ -37,7 +37,7 @@ export function ThemeSwitcherDev({ className }: { className?: string }) {
   }, [theme]);
 
   return (
-    <div className={cn('fixed hidden xl:top-[22px] xl:top-[90px] right-4 z-[60] rounded-md border bg-white/90 backdrop-blur px-3 py-2 shadow-md flex items-center gap-2 text-xs', className)}>
+    <div className={cn('fixed hidden 2xl:top-[22px] lg:top-[90px] right-4 z-[60] rounded-md border bg-white/90 backdrop-blur px-3 py-2 shadow-md flex items-center gap-2 text-xs', className)}>
       <span className="font-semibold">Theme:</span>
       <select
         value={theme}
