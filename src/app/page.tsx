@@ -221,7 +221,7 @@ export default function Home() {
               Engineered Packaging Solutions
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Focused portfolio specializing in Corrugated RSC / Half Slotted Containers and Corrugated Board systems—customizable in size, grade, flute, thickness & finish.
+              Focused portfolio specializing in Corrugated Regular Slotted Carton / Half Slotted Containers and Corrugated Board systems—customizable in size, grade, flute, thickness & finish.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -269,7 +269,7 @@ export default function Home() {
                   <CheckCircle className="mt-1 h-6 w-6 text-primary" />
                   <div>
                     <h3 className="font-headline font-semibold">Custom Design & Prototyping</h3>
-                    <p className="text-muted-foreground">Rapid sampling of RSC, HSC  panel formats tailored to line ergonomics.</p>
+                    <p className="text-muted-foreground">Rapid sampling of Regular Slotted Carton, Half Slotted Carton  panel formats tailored to line ergonomics.</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-4">

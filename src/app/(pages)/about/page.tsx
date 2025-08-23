@@ -84,7 +84,7 @@ export default function AboutPage() {
           <path d="M3 7V5a2 2 0 012-2h14a2 2 0 012 2v2" />
         </svg>
           ),
-          text: "Specialization in RSC & Half Slotted Container (HSC) variants for ergonomic loading",
+          text: "Specialization in Regular Slotted Carton & Half Slotted Container (HSC) variants for ergonomic loading",
         },
         // {
         //   icon: (

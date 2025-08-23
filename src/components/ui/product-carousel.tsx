@@ -22,15 +22,14 @@ export default function ProductCarousel({ images, productName }: ProductCarousel
   }, [images.length]);
 
   return (
-    <div className="relative w-full h-[400px] rounded-xl overflow-hidden shadow-lg">
+    <div className="relative w-full h-[600px] rounded-xl overflow-hidden shadow-lg">
       {/* Auto-scrolling image carousel */}
       <div className="relative w-full h-full">
         {images.map((image, index) => (
           <div
             key={index}
-            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-              index === currentSlide ? 'opacity-100' : 'opacity-0'
-            }`}
+            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === currentSlide ? 'opacity-100' : 'opacity-0'
+              }`}
           >
             <Image
               src={image}
@@ -43,7 +42,7 @@ export default function ProductCarousel({ images, productName }: ProductCarousel
           </div>
         ))}
       </div>
-      
+
       {/* Slide indicators - only show if multiple images */}
       {images.length > 1 && (
         <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
@@ -51,11 +50,10 @@ export default function ProductCarousel({ images, productName }: ProductCarousel
             <button
               key={index}
               onClick={() => setCurrentSlide(index)}
-              className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                index === currentSlide 
-                  ? 'bg-white scale-125' 
+              className={`w-2 h-2 rounded-full transition-all duration-300 ${index === currentSlide
+                  ? 'bg-white scale-125'
                   : 'bg-white/50 hover:bg-white/75'
-              }`}
+                }`}
             />
           ))}
         </div>

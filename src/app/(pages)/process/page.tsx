@@ -23,7 +23,7 @@ export default function ProcessPage() {
         {processes.map(proc => (
           <Card key={proc.slug} className="flex flex-col overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
             <CardHeader className="p-0">
-              {/* <div className="relative w-full h-56">
+              {/* <div className="relative w-full h-64">
                 <Image src={proc.image} alt={proc.name} fill className="object-cover" sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw" />
               </div> */}
             </CardHeader>

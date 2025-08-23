@@ -18,11 +18,12 @@ export default async function ProcessDetailPage({ params }: { params: Promise<{ 
   return (
     <section className="max-w-8xl mx-auto py-16 px-4">
       <Link href="/process" className="inline-block mb-8 text-primary hover:underline font-semibold">&larr; Back to Process</Link>
-      <div className="flex flex-col md:flex-row gap-10 items-start">
+      {/* <div className="flex flex-col md:flex-row gap-10 items-start"> */}
+      <div className="flex-col md:flex-row gap-10 items-start">
         <div className="w-full md:w-1/2 flex-shrink-0">
-          <div className="relative w-full h-[400px] rounded-xl overflow-hidden shadow-lg">
+          {/* <div className="relative w-full h-[400px] rounded-xl overflow-hidden shadow-lg">
             <Image src={process.image} alt={process.name} fill className="object-cover" sizes="(max-width:768px) 100vw, 50vw" priority />
-          </div>
+          </div> */}
           {process.extraImages && process.extraImages.length > 0 && (
             <div className="grid grid-cols-2 gap-4 mt-4">
               {process.extraImages.map((img, i) => (

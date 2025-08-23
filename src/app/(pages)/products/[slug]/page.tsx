@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { productCategories } from '@/content/data';
 import ProductCarousel from '@/components/ui/product-carousel';
+import Link from 'next/link';
 
 // Detailed mapping: slug -> features & use cases
 const productDetails: Record<string, { features: string[]; useCases: string[] }> = {
@@ -153,31 +154,31 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
   return (
     <section className="max-w-8xl mx-auto py-16 px-4">
-      {/* <Link href="/products" className="inline-block mb-8 text-primary hover:underline font-semibold">&larr; Back to Products</Link> */}
+      <Link href="/products" className="inline-block mb-8 text-primary hover:underline font-semibold">&larr; Back to Products</Link>
       <div className="flex flex-col md:flex-row gap-8 items-center">
-      <div className="w-full md:w-1/2 flex-shrink-0">
-        <ProductCarousel images={product.image} productName={product.name} />
-      </div>
-      <div className="flex-1">
-        <h1 className="text-3xl font-headline font-bold mb-2">{product.name}</h1>
-        <p className="text-muted-foreground mb-4">{product.description}</p>
-        <div className="mb-4">
-        <h2 className="font-semibold text-lg mb-1">Key Features</h2>
-        <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-          {details.features.map((f) => (
-          <li key={f}>{f}</li>
-          ))}
-        </ul>
+        <div className="w-full md:w-1/2 flex-shrink-0">
+          <ProductCarousel images={product.image} productName={product.name} />
         </div>
-        <div>
-        <h2 className="font-semibold text-lg mb-1">Common Use Cases</h2>
-        <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-          {details.useCases.map((u) => (
-          <li key={u}>{u}</li>
-          ))}
-        </ul>
+        <div className="flex-1">
+          <h1 className="text-3xl font-headline font-bold mb-2">{product.name}</h1>
+          <p className="text-muted-foreground mb-4">{product.description}</p>
+          <div className="mb-4">
+            <h2 className="font-semibold text-lg mb-1">Key Features</h2>
+            <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+              {details.features.map((f) => (
+                <li key={f}>{f}</li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h2 className="font-semibold text-lg mb-1">Common Use Cases</h2>
+            <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+              {details.useCases.map((u) => (
+                <li key={u}>{u}</li>
+              ))}
+            </ul>
+          </div>
         </div>
-      </div>
       </div>
     </section>
   );
