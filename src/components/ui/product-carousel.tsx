@@ -36,7 +36,7 @@ export default function ProductCarousel({ images, productName, productClass }: P
               src={image}
               alt={`${productName} view ${index + 1}`}
               fill
-              className={productClass}
+              style={{ objectFit: productClass.includes('object-scale-down') ? 'scale-down' : 'cover' }}
               sizes="(max-width:768px) 100vw, 50vw"
               priority={index === 0}
             />

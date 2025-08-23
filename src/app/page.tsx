@@ -236,7 +236,7 @@ export default function Home() {
                         alt={category.name}
                         fill
                         sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-                        className={category.class}
+                        style={{ objectFit: category.class.includes('object-scale-down') ? 'scale-down' : 'cover' }} 
                         priority={false}
                       />
                     </div>

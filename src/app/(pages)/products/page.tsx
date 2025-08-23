@@ -26,7 +26,7 @@ export default function ProductsPage() {
                   src={category.image[0]}
                   alt={category.name}
                   fill
-                  className={category.class}
+                  style={{ objectFit: category.class.includes('object-scale-down') ? 'scale-down' : 'cover' }} 
                   sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
                 />
               </div>
