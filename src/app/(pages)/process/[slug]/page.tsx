@@ -19,7 +19,7 @@ export default async function ProcessDetailPage({ params }: { params: Promise<{ 
     <section className="max-w-8xl mx-auto py-16 px-4">
       <Link href="/process" className="inline-block mb-8 text-primary hover:underline font-semibold">&larr; Back to Process</Link>
       <div className="flex flex-col md:flex-row gap-10 items-start">
-        {/* <div className="w-full md:w-1/2 flex-shrink-0">
+        <div className="w-full md:w-1/2 flex-shrink-0">
           <div className="relative w-full h-[400px] rounded-xl overflow-hidden shadow-lg">
             <Image src={process.image} alt={process.name} fill className="object-cover" sizes="(max-width:768px) 100vw, 50vw" priority />
           </div>
@@ -32,7 +32,7 @@ export default async function ProcessDetailPage({ params }: { params: Promise<{ 
               ))}
             </div>
           )}
-        </div> */}
+        </div>
         <div className="flex-1">
           <h1 className="text-3xl font-headline font-bold mb-4">{process.name}</h1>
           <p className="text-muted-foreground mb-6 leading-relaxed">{process.description}</p>

@@ -12,7 +12,7 @@ export interface ProductCategory {
   slug: string;
   description: string;
   hint: string;
-  image: string;
+  image: string[];
 }
 
 export const productCategories: ProductCategory[] = [
@@ -21,28 +21,28 @@ export const productCategories: ProductCategory[] = [
     slug: 'regular-slotted-carton-rsc',
     description: 'Preferred corrugated shipper with four flaps top & bottom and a manufacturer\'s joint—versatile for FMCG & appliance logistics.',
     hint: 'regular slotted carton rsc',
-    image: '/images/products/Regular Slotted Carton.jpg'
+    image: ['/images/products/rsc.jpg']
   },
   {
     name: 'Half Slotted Carton (HSC)',
     slug: 'half-slotted-carton-hsc',
     description: 'Single set of flaps enabling slide-over loading—ideal for appliances & FMCG overpacks.',
     hint: 'half slotted carton hsc',
-    image: '/images/products/Half-Slotted-Container.webp'
+    image: ['/images/products/hsc.png']
   },
   {
     name: 'Full Overlap Design Carton',
     slug: 'full-overlap-design-carton',
     description: 'Equal length flaps fully overlap for enhanced top & bottom stacking strength and impact protection.',
     hint: 'full overlap carton',
-    image: '/images/products/Fulloverlap.webp'
+    image: ['/images/products/Full Overlap Design Carton.png']
   },
   {
     name: 'Full Telescope Design Carton (FTD)',
     slug: 'full-telescope-design-carton-ftd',
     description: 'Two-piece telescoping design for horizontal stacking strength—flat packed & self-assembled without tape.',
     hint: 'full telescope design carton',
-    image: '/images/products/full-telescope-design-style-carton-FTD-1.jpg'
+    image: ['/images/products/Full Telescope Design Carton.png']
 
   },
   {
@@ -50,35 +50,35 @@ export const productCategories: ProductCategory[] = [
     slug: 'die-cut-boxes',
     description: 'Quick assembly die-cut formats with auto-lock bottoms for premium small parcel presentation & speed.',
     hint: 'die cut box',
-    image: '/images/products/die-cut-box.webp'
+    image: ['/images/products/DIE CUT BOX.jpg']
   },
   {
     name: 'Partitioners & Dividers',
     slug: 'partitioners-dividers',
     description: 'Intersecting corrugated grids creating pockets for separation, rigidity & part protection inside master cartons.',
     hint: 'partitioners dividers',
-    image: '/images/products/PartitionsAndDivders.jpg'
+    image: ['/images/products/partitons and dividers 1.jpg','/images/products/partitons and dividers 2.jpg']
   },
   {
     name: 'Carton with Top Lid',
     slug: 'carton-with-top-lid',
     description: 'Two-piece set with friction-fit lid delivering improved top-down protection & faster close—ideal for bulk materials.',
     hint: 'carton with top lid',
-    image: '/images/products/carton-with-top-lid.webp'
+    image: ['/images/products/CARTON WITH TOP LID.jpg',]
   },
   {
     name: 'Heavy Duty Box',
     slug: 'heavy-duty-box',
     description: 'High stacking, export-ready heavy duty corrugated engineered for dense or CKD automotive & industrial loads.',
     hint: 'heavy duty box',
-    image: '/images/products/HeavyDutyBox.jpg'
+    image: ['/images/products/HEAVY DUTY BOX 1.jpg', '/images/products/heavy duty box 2.png']
   },
   {
     name: 'Tray Form Boxes',
     slug: 'tray-form-boxes',
     description: 'One-piece bottom tray formats (glued / self-locking / stitched) for beverage multipacks & chilled produce.',
     hint: 'tray form boxes',
-    image: '/images/products/tray-boxes.jpg'
+    image: ['/images/products/tray from boxes1.png', '/images/products/tray form boxes 2.jpg']
   },
   // {
   //   name: 'Innovative Products',

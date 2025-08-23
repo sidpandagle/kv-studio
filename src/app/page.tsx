@@ -1,4 +1,6 @@
+"use client"
 import Link from 'next/link';
+import { useState, useEffect } from 'react';
 import {
   Card,
   CardContent,
@@ -7,7 +9,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, CheckCircle, Factory, Settings2, Gauge } from 'lucide-react';
+import { ArrowRight, CheckCircle, Factory, Settings2, Gauge, ShieldCheck } from 'lucide-react';
 import { productCategories, industriesServed } from '@/content/data';
 import {
   Carousel,
@@ -19,7 +21,48 @@ import {
 import Image from 'next/image';
 
 
+
+const pillars = [
+  {
+    icon: Factory,
+    title: 'Lean Manufacturing',
+    description: 'Balanced workflows, rapid changeovers & preventive maintenance ensure consistent throughput.'
+  },
+  {
+    icon: ShieldCheck,
+    title: 'Quality Assurance',
+    description: 'Compression, edge crush & fit validation integrated into each production cycle.'
+  },
+  {
+    icon: Gauge,
+    title: 'Engineering Optimization',
+    description: 'Data-driven selection of board grade, flute & corrugated thickness for performance-to-cost balance.'
+  }
+];
+
 export default function Home() {
+  const sliderImages = [
+    '/images/slider/slider1.png',
+    '/images/slider/slider2.jpg',
+    '/images/slider/slider3.png',
+    '/images/slider/slider4.png',
+    // '/images/slider/slider5.jpg',
+    '/images/slider/slider6.jpg',
+    // '/images/slider/slider7.jpg',
+    '/images/slider/slider8.jpg',
+    // '/images/slider/slider9.jpg',
+  ];
+
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % sliderImages.length);
+    }, 3000); // Change slide every 3 seconds
+
+    return () => clearInterval(interval);
+  }, [sliderImages.length]);
+
   return (
     <div className="flex flex-col min-h-[100dvh]">
       {/* <section className="relative w-full h-[90vh] min-h-[600px] flex items-center justify-center overflow-hidden">
@@ -58,15 +101,32 @@ export default function Home() {
         <div className="pointer-events-none absolute -bottom-24 -left-24 w-96 h-96 bg-green-400/20 rounded-full blur-3xl" />
         <div className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 bg-primary/30 rounded-full blur-3xl" />
       </section> */}
-      {/* --- HERO SECTION ALTERNATIVE 4 --- */}
-  <section className="relative w-full flex items-center justify-center py-20 md:py-32 bg-white overflow-hidden border-b border-primary/10">
+      {/* --- HERO SECTION WITH VIDEO BACKGROUND --- */}
+      <section className="relative w-full h-[90vh] min-h-[600px] flex items-center justify-center overflow-hidden border-b border-primary/10">
+        {/* Video Background */}
+        <div className="absolute inset-0 w-full h-full">
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover"
+          >
+            <source src="/videos/hero-background.mov" type="video/quicktime" />
+            <source src="/videos/hero-background.mov" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          {/* Video Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/30" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/20 via-transparent to-transparent" />
+        </div>
         <div className="container relative z-10 mx-auto flex flex-col-reverse md:flex-row items-center gap-12 px-4 md:px-8">
           <div className="flex-1 flex flex-col items-start text-left">
-            <h1 className="text-4xl sm:text-5xl md:text-5xl font-headline font-black tracking-tight mb-6 text-zinc-900">
+            <h1 className="text-4xl sm:text-5xl md:text-5xl font-headline font-black tracking-tight mb-6 text-white">
               MINIMUM IMPACT, MAXIMUM PERFORMANCE, TIME DELIVERY & BEST QUALITY
             </h1>
-            <p className="text-base md:text-xl text-muted-foreground mb-8 max-w-2xl">
-              THE PACKAGING SAFETY OF CUSTOMERS’ GOODS IS OUR RESPONSIBILITY. 
+            <p className="text-base md:text-xl text-white mb-8 max-w-2xl">
+              THE PACKAGING SAFETY OF CUSTOMERS’ GOODS IS OUR RESPONSIBILITY.
               {/* We engineer corrugated boxes and board solutions that balance strength, sustainability and operational efficiency. */}
             </p>
             <div className="flex gap-4">
@@ -79,22 +139,50 @@ export default function Home() {
             </div>
           </div>
           <div className="flex-1 flex items-center justify-center">
-            <div className="relative w-80 h-96 mt-8 md:mt-0 md:w-[28rem] md:h-[32rem] rounded-3xl overflow-hidden shadow-2xl border border-zinc-200 bg-white flex items-end">
-              <Image
-                src="/images/001.jpg"
-                alt="Premium sustainable packaging"
-                fill
-                className="object-cover object-bottom"
-                sizes="(max-width:768px) 80vw, 40vw"
-                priority={false}
-              />
+            <div className="relative w-80 h-96 mt-8 md:mt-0 md:w-[28rem] md:h-[32rem] rounded-3xl overflow-hidden shadow-2xl border border-white/20 bg-white/10 backdrop-blur-sm">
+              {/* Auto-scrolling image carousel */}
+              <div className="relative w-full h-full">
+                {sliderImages.map((image, index) => (
+                  <div
+                    key={index}
+                    className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === currentSlide ? 'opacity-100' : 'opacity-0'
+                      }`}
+                  >
+                    <Image
+                      src={image}
+                      alt={`Packaging solution ${index + 1}`}
+                      fill
+                      className="object-cover object-center"
+                      sizes="(max-width:768px) 80vw, 40vw"
+                      priority={index === 0}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+                  </div>
+                ))}
+              </div>
+
+              {/* Slide indicators */}
+              <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
+                {sliderImages.map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => setCurrentSlide(index)}
+                    className={`w-2 h-2 rounded-full transition-all duration-300 ${index === currentSlide
+                      ? 'bg-white scale-125'
+                      : 'bg-white/50 hover:bg-white/75'
+                      }`}
+                  />
+                ))}
+              </div>
             </div>
           </div>
         </div>
-        {/* Removed decorative colored blobs */}
+        {/* Decorative elements */}
+        <div className="pointer-events-none absolute -bottom-24 -left-24 w-96 h-96 bg-primary/20 rounded-full blur-3xl" />
+        <div className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 bg-white/10 rounded-full blur-3xl" />
       </section>
-            {/* --- HERO SECTION ALTERNATIVE 5 --- */}
-  {/* <section className="relative w-full flex items-center justify-center py-24 md:py-40 bg-gradient-to-b from-white via-zinc-50 to-zinc-100 overflow-hidden">
+      {/* --- HERO SECTION ALTERNATIVE 5 --- */}
+      {/* <section className="relative w-full flex items-center justify-center py-24 md:py-40 bg-gradient-to-b from-white via-zinc-50 to-zinc-100 overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           <div className="w-[600px] h-[600px] rounded-full bg-zinc-200/30 blur-3xl" />
         </div>
@@ -145,30 +233,32 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {productCategories.map((category) => (
-              <Card key={category.name} className="overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
-                <CardHeader className="p-0">
-                  <div className="relative w-full h-48">
-                    <Image
-                      src={category.image}
-                      alt={category.name}
-                      fill
-                      sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-                      className="object-cover"
-                      priority={false}
-                    />
-                  </div>
-                </CardHeader>
-                <CardContent className="p-6">
-                  <CardTitle className="font-headline text-xl mb-2">{category.name}</CardTitle>
-                  <CardDescription>{category.description}</CardDescription>
-                </CardContent>
-              </Card>
+              <Link key={category.name} href={`/products/${(category as any).slug}`}>
+                <Card className="overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                  <CardHeader className="p-0">
+                    <div className="relative w-full h-48">
+                      <Image
+                        src={category.image[0]}
+                        alt={category.name}
+                        fill
+                        sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+                        className="object-cover"
+                        priority={false}
+                      />
+                    </div>
+                  </CardHeader>
+                  <CardContent className="p-6">
+                    <CardTitle className="font-headline text-xl mb-2">{category.name}</CardTitle>
+                    <CardDescription>{category.description}</CardDescription>
+                  </CardContent>
+                </Card>
+              </Link>
             ))}
           </div>
         </div>
       </section>
 
-  <section className="w-full py-12 md:py-24 lg:py-32">
+      <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
             <div className="space-y-4">
@@ -226,7 +316,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+
       <section className="w-full py-12 md:py-24 lg:py-32 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -247,7 +337,7 @@ export default function Home() {
                 icon: Gauge,
                 title: 'Performance Analytics',
                 desc: 'Data-informed optimization of board grade, flute profile & compression strength.'
-              }].map((b,i)=>(
+              }].map((b, i) => (
                 <Card key={i} className="bg-white border-zinc-200 hover:shadow-md transition-shadow text-left">
                   <CardContent className="p-6 flex flex-col gap-3">
                     <div className="w-12 h-12 rounded-md bg-zinc-900 text-white flex items-center justify-center">
@@ -263,7 +353,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-24 lg:py-32">
+      {/* Testimonials */}
+      {/* <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-3xl font-headline font-bold tracking-tighter text-center sm:text-5xl mb-12">Testimonials</h2>
           {(() => {
@@ -293,7 +384,6 @@ export default function Home() {
                       <Card className="h-full flex">
                         <CardContent className="flex flex-col items-center justify-between p-8 text-center gap-4 h-full">
                           <div className="text-lg text-muted-foreground mb-4 max-w-2xl italic">“{t.quote}”</div>
-                          {/* <h3 className="font-headline font-semibold">{t.client}</h3> */}
                           <p className="text-sm text-muted-foreground">{t.project}</p>
                         </CardContent>
                       </Card>
@@ -305,6 +395,26 @@ export default function Home() {
               </Carousel>
             );
           })()}
+        </div>
+      </section> */}
+      <section className="w-full py-12 md:py-24 lg:py-32">
+        <div className="container mx-auto px-4 md:px-6">
+          <h2 className="text-3xl font-headline font-bold tracking-tighter text-center sm:text-5xl mb-12">Quality</h2>
+          <section className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {pillars.map((item, index) => (
+              <Card key={index} className="text-center">
+                <CardHeader>
+                  <div className="mx-auto bg-primary/10 text-primary rounded-full p-4 w-fit">
+                    <item.icon className="h-8 w-8" />
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <CardTitle className="font-headline text-xl mb-2">{item.title}</CardTitle>
+                  <p className="text-muted-foreground">{item.description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </section>
         </div>
       </section>
 
@@ -328,7 +438,7 @@ export default function Home() {
         </div>
       </section>
 
-  <section className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
         <div className="container mx-auto grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-3">
             <h2 className="text-3xl font-headline font-bold tracking-tighter md:text-4xl/tight">

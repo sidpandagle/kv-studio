@@ -67,7 +67,7 @@ export function Header() {
                     href={link.href}
                     className={cn(
                       'text-sm font-medium tracking-wide transition-colors hover:text-primary',
-                      pathname === link.href ? activeLinkClasses : ''
+                      pathname.includes(link.href) ? activeLinkClasses : ''
                     )}
                   >
                     {link.name}

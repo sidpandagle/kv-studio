@@ -1,7 +1,6 @@
 import { notFound } from 'next/navigation';
 import { productCategories } from '@/content/data';
-import Image from 'next/image';
-import Link from 'next/link';
+import ProductCarousel from '@/components/ui/product-carousel';
 
 // Detailed mapping: slug -> features & use cases
 const productDetails: Record<string, { features: string[]; useCases: string[] }> = {
@@ -143,9 +142,8 @@ export async function generateStaticParams() {
   return productCategories.map(p => ({ slug: (p as any).slug || p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-') }));
 }
 
-export default async function ProductDetailPage({ params }: { params: Promise<{ slug: string }> | { slug: string } }) {
-  const awaited = await params as { slug: string };
-  const { slug } = awaited;
+export default async function ProductDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
 
   const product = productCategories.find((cat: any) => (cat.slug || cat.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')) === slug);
 
@@ -155,19 +153,10 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
   return (
     <section className="max-w-8xl mx-auto py-16 px-4">
-      <Link href="/products" className="inline-block mb-8 text-primary hover:underline font-semibold">&larr; Back to Products</Link>
+      {/* <Link href="/products" className="inline-block mb-8 text-primary hover:underline font-semibold">&larr; Back to Products</Link> */}
       <div className="flex flex-col md:flex-row gap-8 items-center">
       <div className="w-full md:w-1/2 flex-shrink-0">
-        <div className="relative w-full h-[400px] rounded-xl overflow-hidden shadow-lg">
-        <Image
-          src={product.image}
-          alt={product.name}
-          fill
-          className="object-cover"
-          sizes="(max-width:768px) 100vw, 50vw"
-          priority
-        />
-        </div>
+        <ProductCarousel images={product.image} productName={product.name} />
       </div>
       <div className="flex-1">
         <h1 className="text-3xl font-headline font-bold mb-2">{product.name}</h1>

@@ -23,7 +23,7 @@ export default function ProductsPage() {
             <CardHeader className="p-0">
               <div className="relative w-full h-56">
                 <Image
-                  src={category.image}
+                  src={category.image[0]}
                   alt={category.name}
                   fill
                   className="object-cover"
