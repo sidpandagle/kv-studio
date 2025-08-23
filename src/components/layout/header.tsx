@@ -56,7 +56,7 @@ export function Header() {
             {/* Left: Logo */}
             <Link href="/" className="flex items-center gap-2 flex-shrink-0" onClick={() => isMobileMenuOpen && setIsMobileMenuOpen(false)}>
               <Logo className="h-8 w-auto text-primary" />
-              <span className="font-headline text-xl font-bold whitespace-nowrap">KV PACKAGING SOLUTIONS</span>
+              <span className="font-headline md:text-xl text-lg font-bold whitespace-nowrap">KV PACKAGING SOLUTIONS</span>
             </Link>
             {/* Center: Nav */}
             <div className="hidden lg:flex flex-1 justify-center">
@@ -84,7 +84,7 @@ export function Header() {
             {/* Mobile menu trigger */}
             <div className="lg:hidden ml-auto">
               <Button onClick={toggleMobileMenu} variant="ghost" size="icon">
-                {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+                {isMobileMenuOpen ? <X className="h-7 w-7" /> : <Menu className="h-7 w-7" />}
               </Button>
             </div>
           </div>

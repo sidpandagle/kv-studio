@@ -95,7 +95,7 @@ export default function Home() {
         <div className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 bg-primary/30 rounded-full blur-3xl" />
       </section> */}
       {/* --- HERO SECTION WITH VIDEO BACKGROUND --- */}
-      <section className="relative w-full h-[90vh] min-h-[600px] flex items-center justify-center overflow-hidden border-b border-primary/10">
+      <section className="relative w-full h-[108vh] md:h-[90vh] min-h-[600px] flex items-center justify-center overflow-hidden border-b border-primary/10">
         {/* Video Background */}
         <div className="absolute inset-0 w-full h-full">
           <video
@@ -115,14 +115,15 @@ export default function Home() {
         </div>
         <div className="container relative z-10 mx-auto flex flex-col-reverse md:flex-row items-center gap-12 px-4 md:px-8">
           <div className="flex-1 flex flex-col items-start text-left">
-            <h1 className="text-4xl sm:text-5xl md:text-5xl font-headline font-black tracking-tight mb-6 text-white">
-              MINIMUM IMPACT, MAXIMUM PERFORMANCE, TIME DELIVERY & BEST QUALITY
+            <h1 className="text-4xl sm:text-5xl md:text-5xl font-headline font-black tracking-tight mb-6 text-white text-center md:text-left">
+              MAXIMUM PERFORMANCE, TIMELY DELIVERY, & BEST QUALITY
             </h1>
-            <p className="text-base md:text-xl text-white mb-8 max-w-2xl">
+            <p className="text-base md:text-xl text-white mb-8 max-w-2xl text-center md:text-left">
               THE PACKAGING SAFETY OF CUSTOMERS’ GOODS IS OUR RESPONSIBILITY.
               {/* We engineer corrugated boxes and board solutions that balance strength, sustainability and operational efficiency. */}
             </p>
-            <div className="flex gap-4">
+            {/* Center the buttons on mobile screen */}
+            <div className="flex gap-4 justify-center w-full md:w-auto">
               <Button asChild size="lg" className="font-headline">
                 <Link href="/products">View Solutions</Link>
               </Button>
