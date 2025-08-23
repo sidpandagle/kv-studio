@@ -11,13 +11,6 @@ import {
 import { Button } from '@/components/ui/button';
 import { ArrowRight, CheckCircle, Factory, Settings2, Gauge, ShieldCheck } from 'lucide-react';
 import { productCategories, industriesServed } from '@/content/data';
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from '@/components/ui/carousel';
 import Image from 'next/image';
 
 
@@ -44,7 +37,7 @@ export default function Home() {
   const sliderImages = [
     '/images/slider/slider1.png',
     '/images/slider/slider2.jpg',
-    '/images/slider/slider3.png',
+    // '/images/slider/slider3.png',
     '/images/slider/slider4.png',
     // '/images/slider/slider5.jpg',
     '/images/slider/slider6.jpg',
