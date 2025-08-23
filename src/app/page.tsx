@@ -230,13 +230,13 @@ export default function Home() {
               <Link key={category.name} href={`/products/${(category as any).slug}`}>
                 <Card className="overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
                   <CardHeader className="p-0">
-                    <div className="relative w-full h-48">
+                    <div className="relative w-full h-64">
                       <Image
                         src={category.image[0]}
                         alt={category.name}
                         fill
                         sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-                        className="object-cover"
+                        className={category.class}
                         priority={false}
                       />
                     </div>

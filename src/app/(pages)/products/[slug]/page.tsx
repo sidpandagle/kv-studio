@@ -157,7 +157,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
       <Link href="/products" className="inline-block mb-8 text-primary hover:underline font-semibold">&larr; Back to Products</Link>
       <div className="flex flex-col md:flex-row gap-8 items-center">
         <div className="w-full md:w-1/2 flex-shrink-0">
-          <ProductCarousel images={product.image} productName={product.name} />
+          <ProductCarousel productClass={product.class} images={product.image} productName={product.name} />
         </div>
         <div className="flex-1">
           <h1 className="text-3xl font-headline font-bold mb-2">{product.name}</h1>

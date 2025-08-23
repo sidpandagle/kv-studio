@@ -26,7 +26,7 @@ export default function ProductsPage() {
                   src={category.image[0]}
                   alt={category.name}
                   fill
-                  className="object-cover"
+                  className={category.class}
                   sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
                 />
               </div>

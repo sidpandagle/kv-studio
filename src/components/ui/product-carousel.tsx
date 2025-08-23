@@ -5,9 +5,10 @@ import Image from 'next/image';
 interface ProductCarouselProps {
   images: string[];
   productName: string;
+  productClass: string;
 }
 
-export default function ProductCarousel({ images, productName }: ProductCarouselProps) {
+export default function ProductCarousel({ images, productName, productClass }: ProductCarouselProps) {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   // Auto-scroll carousel
@@ -22,7 +23,7 @@ export default function ProductCarousel({ images, productName }: ProductCarousel
   }, [images.length]);
 
   return (
-    <div className="relative w-full h-[600px] rounded-xl overflow-hidden shadow-lg">
+    <div className="relative w-full h-[400px] md:h-[600px] rounded-xl overflow-hidden shadow-lg">
       {/* Auto-scrolling image carousel */}
       <div className="relative w-full h-full">
         {images.map((image, index) => (
@@ -35,7 +36,7 @@ export default function ProductCarousel({ images, productName }: ProductCarousel
               src={image}
               alt={`${productName} view ${index + 1}`}
               fill
-              className="object-cover"
+              className={productClass}
               sizes="(max-width:768px) 100vw, 50vw"
               priority={index === 0}
             />
