@@ -116,7 +116,7 @@ export default function Home() {
         <div className="container relative z-10 mx-auto flex flex-col-reverse md:flex-row items-center gap-12 px-4 md:px-8">
           <div className="flex-1 flex flex-col items-start text-left">
             <h1 className="text-4xl sm:text-5xl md:text-5xl font-headline font-black tracking-tight mb-6 text-white text-center md:text-left">
-              MAXIMUM PERFORMANCE, TIMELY DELIVERY, & BEST QUALITY
+              MAXIMUM PERFORMANCE, TIMELY DELIVERY, <br /> & BEST QUALITY
             </h1>
             <p className="text-base md:text-xl text-white mb-8 max-w-2xl text-center md:text-left">
               THE PACKAGING SAFETY OF CUSTOMERS’ GOODS IS OUR RESPONSIBILITY.
