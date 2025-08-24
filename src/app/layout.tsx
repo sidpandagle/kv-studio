@@ -55,7 +55,7 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         <FloatingQuoteButton />
-        <ThemeSwitcherDev />
+        {/* <ThemeSwitcherDev /> */}
         <Toaster />
       </body>
     </html>
