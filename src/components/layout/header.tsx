@@ -55,8 +55,8 @@ export function Header() {
           <div className="flex h-20 items-center gap-6">
             {/* Left: Logo */}
             <Link href="/" className="flex items-center gap-2 flex-shrink-0" onClick={() => isMobileMenuOpen && setIsMobileMenuOpen(false)}>
-              <Logo className="h-8 w-auto text-primary" />
-              <span className="font-headline md:text-xl text-lg font-bold whitespace-nowrap">KV PACKAGING SOLUTIONS</span>
+              <Logo className="h-12 w-auto text-primary" />
+              <span className="font-headline md:text-2xl text-lg font-bold whitespace-nowrap">KV PACKAGING SOLUTIONS</span>
             </Link>
             {/* Center: Nav */}
             <div className="hidden lg:flex flex-1 justify-center">
