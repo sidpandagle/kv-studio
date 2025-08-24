@@ -16,7 +16,7 @@ const themes = [
 ];
 
 export function ThemeSwitcherDev({ className }: { className?: string }) {
-  const [theme, setTheme] = useState<string>('theme-industrial');
+  const [theme, setTheme] = useState<string>('default');
 
   useEffect(() => {
     const saved = window.localStorage.getItem('kv-theme');
@@ -24,7 +24,7 @@ export function ThemeSwitcherDev({ className }: { className?: string }) {
       setTheme(saved);
     } else {
       // persist industrial as default if nothing stored
-      window.localStorage.setItem('kv-theme', 'theme-industrial');
+      window.localStorage.setItem('kv-theme', 'default');
     }
   }, []);
 
