@@ -16,8 +16,8 @@ export function Footer() {
   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="space-y-4 md:col-span-1">
             <Link href="/" className="flex items-center gap-2">
-              <Logo className="h-12 w-auto text-primary" />
-              <span className="font-headline text-2xl font-bold text-primary">KV PACKAGING SOLUTIONS</span>
+              <Logo className="h-16 w-auto text-primary" />
+              <span className="font-headline text-xl  md:text-3xl font-bold text-primary">KV PACKAGING SOLUTIONS</span>
             </Link>
             <p className="text-sm text-muted-foreground">
               High-performance, sustainable packaging engineered for your brand.
